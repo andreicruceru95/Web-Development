@@ -29,6 +29,7 @@
     transition: 1s ease;
     display: flex;
     background-color: transparent;
+    margin-bottom: 100px;
   }
   
   .slideshow-container:hover {
