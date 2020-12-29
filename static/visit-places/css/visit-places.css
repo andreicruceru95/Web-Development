@@ -1,0 +1,418 @@
+
+/* for large screens and up */
+@media (min-width: 1300px) {
+  .bodyRo .bodySp .bodyUk .bodyFl .bodyIr .bodyIt .bodyNl {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    position: relative;
+    display: inline-flex;
+    
+  }
+  .Romania .Spain  .America  .Italy  {
+    width: 70%;
+    height: auto;
+    line-height: 300px;
+    position: absolute;
+    text-align: center; 
+    z-index: 1;
+     
+  }
+  .Uk .Holland .Ireland {
+    width: 70%;
+    height: auto;
+    line-height: 300px;
+    position: absolute;
+    text-align: center;
+    margin-top: 10px;               
+  }
+  .bodyRo{
+    background-image: url("ro/jpg/romania11.jpg");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(100%);
+  }
+  .bodyUk{
+    background-image: url("uk/jpg/uk11.jpg");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(100%);
+  }
+  .bodySp{
+    background-image: url("ib/jpg/ib11.jpg");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(100%);
+  }
+  .bodyNl{
+    background-image: url("am/jpg/am11.jpg");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(100%);
+  }
+  .bodyFl{
+    background-image: url("fl/jpg/fl11.jpg");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(100%);
+  }
+  .bodyIr{
+    background-image: url("ir/jpg/ir11.jpg");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(100%);
+  }
+  .bodyIt{
+    background-image: url("it/jpg/it11.jpg");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(100%);
+  }
+}
+
+@media (max-width:1299px) and (min-width:601px) {
+  .bodyRo{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+  .bodyUk{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+  .bodySp{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+  .bodyNl{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+  .bodyFl{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+  .bodyIr{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+  .bodyIt{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+
+
+
+  .textSp{
+    width:50%;
+    height: 600px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    overflow: auto;
+  }
+  .textRo{
+    width:50%;
+    height: 600px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    overflow: auto;
+  }
+  .textFl{
+    width:50%;
+    height: 600px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    overflow: auto;
+  }
+  .textIt{
+      width:50%;
+      height: 600px;
+      color: white;
+      font-size: larger;
+      text-align: left;
+      overflow: auto;
+  }
+  .textUk{
+    width: 50%;
+    height: 600px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    overflow: auto;
+  }
+  .textNl{
+    width: 50%;
+    height: 600px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    overflow: auto;
+  }
+  .textIr{
+      width: 50%;
+      height: 600px;
+      color: white;
+      font-size: larger;
+      text-align: left;
+      overflow: auto;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .bodyRo{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+  .bodyUk{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+  .bodySp{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+  .bodyNl{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+  .bodyFl{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+  .bodyIr{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+  .bodyIt{
+    height: auto;
+    width: auto;
+    background-size: 100% auto;
+    filter: saturate(100%);
+  }
+
+
+
+  .textSp{
+    width:50%;
+    height: 600px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    overflow: auto;
+  }
+  .textRo{
+    width:50%;
+    height: 600px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    overflow: auto;
+  }
+  .textFl{
+    width:50%;
+    height: 600px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    overflow: auto;
+  }
+  .textIt{
+      width:50%;
+      height: 600px;
+      color: white;
+      font-size: larger;
+      text-align: left;
+      overflow: auto;
+  }
+  .textUk{
+    width: 50%;
+    height: 600px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    overflow: auto;
+  }
+  .textNl{
+    width: 50%;
+    height: 600px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    overflow: auto;
+  }
+  .textIr{
+      width: 50%;
+      height: 600px;
+      color: white;
+      font-size: larger;
+      text-align: left;
+      overflow: auto;
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, rgb(226, 101, 101), rgb(3, 71, 110));
+    font-size: x-large;
+    color: #000;
+    padding: none;
+    
+}
+.bodyMain {
+    background-image: url("earth.jpg");
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: none;
+}
+
+.textSp{
+  width:50%;
+  height: 600px;
+  color: white;
+  font-size: larger;
+  text-align: left;
+  overflow: auto;
+}
+.textRo{
+  width:50%;
+  height: 600px;
+  color: white;
+  font-size: larger;
+  text-align: left;
+  overflow: auto;
+}
+.textFl{
+  width:50%;
+  height: 600px;
+  color: white;
+  font-size: larger;
+  text-align: left;
+  overflow: auto;
+}
+.textIt{
+    width:50%;
+    height: 600px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    overflow: auto;
+}
+.textUk{
+  width: 50%;
+  height: 600px;
+  color: white;
+  font-size: larger;
+  text-align: left;
+  overflow: auto;
+}
+.textNl{
+  width: 50%;
+  height: 600px;
+  color: white;
+  font-size: larger;
+  text-align: left;
+  overflow: auto;
+}
+.textIr{
+    width: 50%;
+    height: 600px;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    overflow: auto;
+}
+.header h1{
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    font-style: italic;
+    color: white;
+    margin-bottom: 40px;
+}
+.header h2{
+    text-align: left;
+    width: 100%;
+    text-indent: 60px;
+    font-size: 50px;
+    font-style: italic;
+    color: white;
+    margin-bottom: 40px;
+}
+#slider, #sliderUk, #sliderSp, #sliderNl, #sliderFl, #sliderIt, #sliderIr {
+    border-radius: 300px;
+    z-index: 1;
+    
+}
+#prev{
+    size: 50px;
+    color: white;
+    background-color: green;
+    z-index: 1;
+    
+}
+#next{
+    size: 80px;
+    color: white;
+    background-color: green;
+    z-index: 1;
+}
+
+a{
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+p{
+  text-align: center;
+  font-weight: bold;
+  color: aqua;
+}
