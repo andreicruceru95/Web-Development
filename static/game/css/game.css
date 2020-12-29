@@ -19,6 +19,13 @@ body{
   font-size: 30px;
 }
 
+@media only screen and (max-width: 600px){
+ #text{
+   margin-right: 10px;
+   font-size: 10px ;
+  }
+}
+
 .team-boxed {
   color: #313437;
   background-color: #eef4f7;
