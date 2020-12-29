@@ -1,3 +1,24 @@
+const fname = document.getElementById('fname')
+const feedback = document.getElementById('feedback')
+const form = document.getElementById('form')
+const errorElement = document.getElementById('error')
+form.addEventListener('submit', (e) => {
+  let messages =[]
+  if (fname.value ==='' || name.value == null || feedback.value ==='' || feedback.value == null){
+    messages.push('Name and feedback is required')
+  }
+
+  if (messages.length > 0){
+    e.preventDefault()
+    errorElement.innerText = messages.join(', ')
+  }
+  else{
+    feedbackUpdate();
+  }
+  
+})
+
+
 // Next id for adding a new feedback
 var nextId = 1;
 // ID of feedback currently editing
