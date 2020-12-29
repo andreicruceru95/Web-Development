@@ -1,0 +1,168 @@
+#about p {
+    text-indent: 50px;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+    z-index: 1;
+}
+#review h2{
+    text-align: center;
+    color: #000;
+    font-size: xx-large;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+
+body {
+    margin: 10px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgb(63, 63, 145), rgb(207, 87, 87));
+  }
+  
+  .image {
+    background-image: url("plane.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .text {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+ }
+  a{
+    color: white;
+  }
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+ .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .sub{
+    background-color: #4CAF50;
+    color: #4CAF50;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+
+  }
+  .sub hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, button[type=button] {
+      width: 100%;
+      margin-top: 0;
+      overflow: scroll;
+    }
+    
+  }
+  #feedbackTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  #feedbackTable td, #feedbackTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #feedbackTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #feedbackTable tr:hover {background-color: #ddd;}
+  
+  #feedbackTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  #contact h1{
+      text-align: center;
+      padding-top: 2px;
+      font-size: xx-large;
+      font-weight: bold;
+      font-style: italic;
+      color: black;
+      background: none;
+  }
+  #fb h2{
+      font-size: xx-large;
+      color: #000;
+      text-align: center;
+      text-decoration: underline;
+  }
+  #feedbackTable{
+    margin: 100px auto;
+    margin-bottom: 100px;
+  }
+  
+
+
+
+
+
+
+
+
