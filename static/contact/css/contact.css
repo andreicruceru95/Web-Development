@@ -3,6 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+#home {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    float:left;
+      
+  }
+  .fa-home {
+    color: red;
+    font-size: 40px;
+    background: transparent;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+  }
+
 body{
     font-family: 'Montserrat';
     background-color: rgb(214, 168, 168);
