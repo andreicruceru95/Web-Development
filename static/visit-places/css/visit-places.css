@@ -1,4 +1,18 @@
-
+#home {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  float:left;
+    
+}
+.fa-home {
+  color: red;
+  font-size: 40px;
+  background: transparent;
+  border: none;
+  padding: 15px;
+  border-radius: 30px;
+}
 html {
   box-sizing: border-box;
 }
