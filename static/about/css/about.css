@@ -2,49 +2,39 @@ body{
     background-color: aliceblue;
 
 }
-#text, #game p, #travel p{
+p{
     font-size: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 15%;
     letter-spacing: 2px;
     line-height: 1.2;
     margin-top: 100px;
-}
-#text p{
-    font-size: 50px;
     font-weight: bold;
-    margin-left: 20%;
-    margin-top: 5%;
     margin-bottom: 5%;
 }
+
 #modules{
     margin-left: 15%;
     font-weight: bold;
 
 }
 
-#review{
+#introduction, #education, #hobbies, #learning{
+    margin-left: 10%;
+    margin-right: 10%;
+    letter-spacing: 2px;
+    line-height: 1.2;
     margin-top: 100px;
+    font-size: 20px;
+}
+#learning{
+    margin-bottom: 100px;
+}
+#myself{
     margin-left: 25%;
-    color: blue;
-    font-size: 40px;
-    font-style: italic;
-    margin-bottom: 200px;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    
 }
 
-#home {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    float:left;
-      
-  }
-  .fa-home {
-    color: red;
-    font-size: 40px;
-    background: transparent;
-    border: none;
-    padding: 15px;
-    border-radius: 30px;
-  }
+  
 
