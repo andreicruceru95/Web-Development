@@ -6,13 +6,13 @@
 
 body{
     font-family: 'Montserrat';
-    background-color: aliceblue;
+    background-color: #E0E7E9;
     display: block;
 }
 section{
     height: 100vh;
     width: 100%;
-    background-color: aliceblue;
+    background-color: #E0E7E9;
     
     flex-direction: column;
 }
