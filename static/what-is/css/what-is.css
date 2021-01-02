@@ -1,6 +1,7 @@
 
 body{    
-  background-color: rgb(167, 149, 149);    
+  background-color: rgb(64, 64, 65);   
+  color: white;
 }
 #refference {
   text-align: center;
@@ -41,7 +42,7 @@ float: right;
  
 }
 h2{
- color: black;
+ color: rgb(255, 255, 255);
  font-weight: bold;
  text-align: left;
  margin-left: 10%;
@@ -51,11 +52,11 @@ h2{
 #ds{
   text-align: center;
   font-size: 50px;
-  color: rgb(27, 41, 53);
+  color: rgb(255, 255, 255);
 }
 #refference{
  text-align: center;
- color: black;
+ color: rgb(255, 255, 255);
  font-size: 30px;
 }
 
