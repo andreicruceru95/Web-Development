@@ -5,17 +5,110 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
             <title>Game</title>
             <link rel="stylesheet" href="static/game/bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" href="static/about/css/nav-bar.css">
+            <link rel="stylesheet" href="static/about/css/footer.css">
+            <link rel="stylesheet" href="static/about/fonts/ionicons.min.css">
             <link rel="stylesheet" href="static/game/fonts/font-awesome.min.css">
             <link rel="stylesheet" href="static/game/css/game.css">
             
+            
         </head>
 
-        <body>        
+        <body>
+            <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Andrei Cruceru</a>
+                    <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="nav navbar-nav mr-auto">
+                            <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#game">Game</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#maps">Maps</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#functions">Functions</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Code </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="https://github.com/andreicruceru95/App06-Group">Source Code</a>
+                                    <a class="dropdown-item" href="https://github.com/andreicruceru95/App06-Group/wiki/Game">Wiki Page</a>
+                                </div>
+                            </li>
+                        </ul>
+        
+                        <span class="navbar-text actions"> 
+                            <a class="login" href="review.html">Feedback</a>
+                            <a class="btn btn-light action-button" role="button" href="Contact.html">Contact</a>
+                        </span>
+        
+                    </div>
+                </div>
+            </nav>
+
                        
             <div class="text">
                 <p id="header">World of Zuul game</p>
-            </div>
+            </div>        
+        </div>
+        <section class="slideshow">
+            <div class="slideshow-container slide">
+
+              <div class="item">
+                <img src="static/game/img/fortressBlueJ.JPG" height="100%", width="100%" />
+                <div class="caption">
+                    Over 7 maps available to explore.
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="static/game/img/monsters.JPG" height="100%", width="100%" />
+                <div class="caption">
+                    Twenty different monsters and bosses for you to 
+                    slay, each one with unique item drops.
+                </div>
+              </div>
+          
+              <div class="item">
+                <img src="static/game/img/farmer's quest.JPG" height="100%", width="100%"/>
+                <div class="caption" id="caption">
+                    Five quests with great rewards.
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="static/game/img/quick-teleport-options-full.JPG" height="100%", width="100%"/>
+                <div class="caption">
+                    Quick teleport function available. 
+                </div>
+              </div>
+              
+              <div class="item">
+                <img src="static/game/img/blacksmith-2.JPG" height="100%", width="100%"/>
+                <div class="caption">
+                    Blacksmith available to enhance and strenghten your items.
+                </div>
+              </div>
+              
+              <div class="item">
+                <img src="static/game/img/items-2.JPG" height="100%", width="100%"/>
+                <div class="caption">
+                    Seven equipable items with unique stats 
+                    ready to be obtained.
+                </div>
+              </div>
+              
+              <div class="item">
+                <img src="static/game/img/jurnal-dessert.JPG" height="100%", width="100%"/>
+                <div class="caption">
+                    Tips and tricks given in game.
+
+                </div>
+              </div>
             
+            </div>
+        </section>
+      </div>
             <div class="text">
 
                 <p id="text">
@@ -65,7 +158,7 @@
                 </p>
             </div>
 
-            <div class="team-boxed">
+            <div class="team-boxed" id="team">
                 <div class="container">
                     <div class="intro">
                         <h2 class="text-center">Team </h2>
@@ -75,7 +168,7 @@
                         </p>
                     </div>
                     <div class="row people">
-                        <div class="col-md-6 col-lg-4 item">
+                        <div class="col-md-6 col-lg-4 person">
                             <div class="box"><img class="rounded-circle" src="static/game/img/person.png">
                                 <h3 class="name">Rory</h3>
                                 <p class="title">Story Design</p>
@@ -92,7 +185,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 item">
+                        <div class="col-md-6 col-lg-4 person">
                             <div class="box"><img class="rounded-circle" src="static/game/img/person.png">
                                 <h3 class="name">Warren</h3>
                                 <p class="title">Testing</p>
@@ -108,7 +201,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 item">
+                        <div class="col-md-6 col-lg-4 person">
                             <div class="box"><img class="rounded-circle" src="static/game/img/person.png">
                                 <h3 class="name">Andrei</h3>
                                 <p class="title">Programing</p>
@@ -129,7 +222,7 @@
                 </div>
             </div>
 
-            <div class = "text">
+            <div class = "text" id="game">
 
                 <p id="title">
                     The Game
@@ -143,7 +236,7 @@
                     The player must find out the location of it, and how to obtain it.                    
                     <br><br>
                     There are 7 maps in total: <br><br>
-                    <ol>
+                    <ol class="map-list">
                         <li><a href="#fortress">The Fortress</a></li>
                         <li><a href="#town">The Town</a></li>
                         <li><a href="#forest">The Forest</a></li>
@@ -154,7 +247,7 @@
                     </ol>
                 </p>
             </div>
-            <div class="text">
+            <div class="text" id="maps">
                 <p id="fortress">
                     <strong>The fortress</strong> is the start point of the player. <br>
                     In this map, the player will meet a shop owner, who will allow the player to 
@@ -219,7 +312,7 @@
             <div class="text">
                 <p id="mountain">
                     <strong>The Mountain</strong> - here, the player can colect quest items, and fight the Nine Tails to obtain the spider key. <br>
-                    The chance of dropping this key is 30%, so more attempts will be required.
+                    The chance of dropping this key is 30%, so more attempts might be required.
                     <br><br>
                 </p>
             </div>
@@ -255,15 +348,71 @@
                 <img src="static/game/img/Tower lvl1.JPG" alt="t1" width="100%" height="100%">
                               
             </div>
-            <div id="image">
-                <img src="static/game/img/tower-3.JPG" alt="t3" width="100%" height="100%">                
-            </div>
-            <div id="image">
-                <img src="static/game/img/tower-5.JPG" alt="t5" width="100%" height="100%">
-                
-            </div>
-            <div id="image">
+           <div id="image">
                 <img src="static/game/img/tower-6.JPG" alt="t6" width="100%" height="100%">
+            </div>
+
+            <div class="text" id="functions">
+                <p id="title">
+                    Other functions
+                </p>
+                <strong>Help Map</strong> <br>
+                The player can track it's progress through the map by typing 'see location' in 
+                the terminal window. This will print a full sized map that will show the player it's tracks from the start point 
+                to it's current location.
+            </div>
+            <div id="image">
+                <img src="static/game/img/Map-location.JPG" alt="location" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <strong>Hide stats/items</strong> <br>
+                The player can chose weather he will see it's status or items on the screen by typing show/hide items 
+                or show/hide stats. 
+            </div>
+            <div id="image">
+                <img src="static/game/img/show-items-command.JPG" alt="items" width="100%" height="100%">
+            </div>
+            <div id="image">
+                <img src="static/game/img/show-stats-command.JPG" alt="stats" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <strong>Database</strong> <br>
+                The player can see a full list of game objects and a short description of them 
+                by typing 'database' in the terminal window.
+            </div>
+            <div id="image">
+                <img src="static/game/img/database.JPG" alt="database" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <strong>Monsters</strong> <br>
+                The player can see a full list of monsters with their stats and the type of items 
+                they drop on kill.
+            </div>
+            <div id="image">
+                <img src="static/game/img/monsters.JPG" alt="monsters" width="100%" height="100%">
+            </div>
+
+            <div class="text">
+                You can find more informations about the game by accessing the wiki page of the game on GitHub 
+                <a href="https://github.com/andreicruceru95/App06-Group/wiki/Game">here</a>, And you can find the 
+                source code <a href="https://github.com/andreicruceru95/App06-Group">here</a>
+            </div>
+
+            <div class="footer">
+                <footer>
+                    <div class="social">
+                        <a href="https://github.com/andreicruceru95" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-github"></i></a>
+                        <a href="https://www.linkedin.com/in/andrei-cruceru-517473116/" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-linkedin"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-twitter"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-facebook"></i></a></div>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="index.html">Home</a></li>
+                        <li class="list-inline-item"><a href="review.html">Feedback</a></li>
+                        <li class="list-inline-item"><a href="Contact.html">Contact</a></li>
+                        
+                    </ul>
+                    
+                </footer>
             </div>
             
                         
