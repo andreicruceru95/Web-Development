@@ -93,8 +93,8 @@
   .navigation-clean-button .navbar-nav > li > .dropdown-menu {
     margin-top: -5px;
     box-shadow: 0 4px 8px rgba(0,0,0,.1);
-    background-color: #fff;
-    border-radius: 2px;
+    background-color: transparent;
+    border-radius: 3px;
   }
   
   .navigation-clean-button .dropdown-menu .dropdown-item:focus, .navigation-clean-button .dropdown-menu .dropdown-item {
@@ -162,17 +162,17 @@
     }
   }
   
-  .navigation-clean-button .actions .login {
+  .navigation-clean-button .actions .feedback {
     margin-right: 1rem;
     text-decoration: none;
     color: #465765;
   }
   
-  .navigation-clean-button.navbar-dark .actions .login {
+  .navigation-clean-button.navbar-dark .actions .feedback {
     color: #dfe8ee;
   }
   
-  .navigation-clean-button.navbar-dark .actions .login:hover {
+  .navigation-clean-button.navbar-dark .actions .feedback:hover {
     color: #fff;
   }
   
