@@ -2,6 +2,7 @@
   padding: 40px 0;
   background-color: rgb(141, 132, 132);
   color: #4b4c4d;
+  
 }
 
 .footer ul {
@@ -51,10 +52,11 @@
 }
 
 .footer{
+  width: 100%;
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
   color: #aaa;
-  margin-bottom: 0;
+  margin-bottom: 0;  
 }
 
