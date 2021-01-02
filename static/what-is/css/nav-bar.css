@@ -10,6 +10,7 @@ div.vertical-nav {
   display: block;
   background-color: #222222;
   margin-right: 90%;
+  width: 15%;
   height: 100%;
   z-index: 1;
 }
@@ -29,6 +30,19 @@ li.vnav-li {
 a.vnav-link {
   color: grey;
   font-size: 12px;
+}
+
+@media screen and (max-width: 600px){
+  a.vnav-link {
+    font-size: 2vw;
+    margin-left: 0;
+  }
+  div.vertical-nav{
+    width: 18%;
+  }
+  h4{
+    font-size: 2vw;
+  }
 }
 
 
