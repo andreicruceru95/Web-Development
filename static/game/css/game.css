@@ -1,49 +1,42 @@
-#home {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  float:left;
-    
-}
-.fa-home {
-  color: red;
-  font-size: 40px;
-  background: transparent;
-  border: none;
-  padding: 15px;
-  border-radius: 30px;
-}
+
 body{
-  background-color: rgb(223, 213, 241);
+  background-color: aliceblue;
+  width: 100%;
+}
+#image{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  background-size: cover;
 }
 #header{
   font-size: 50px;
   padding-top: 50px;
-}
-#game, #graphic, #project{
-  background-color: palegoldenrod;
   text-align: center;
-  font-size: 50px;
-  margin-top: 50px;
+  color: rgb(243, 181, 181);
+  font-weight: bold;
 }
-#text{
-  padding-top: 100px;
-  
-  margin-right: 25%;
-  margin-left: 25%;
+.text{
+  width: 80%;
   font-size: 30px;
+  line-height: 1.8;
+  letter-spacing: 1.5px;
+  margin-left: 10%;
+  margin-top: 50px;
+  margin-bottom: 50x;
+  text-align: left;
+  text-indent: 30px;
 }
-
-@media only screen and (max-width: 600px){
- #text{
-   margin-right: 10px;
-   font-size: 10px ;
-  }
+#quote{
+  font-style: italic;
 }
 
 .team-boxed {
   color: #313437;
-  background-color: #eef4f7;
+  background-color: #bcbcbd;
 }
 
 .team-boxed p {
