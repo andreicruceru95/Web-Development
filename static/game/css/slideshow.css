@@ -1,0 +1,115 @@
+
+ 
+ 
+  
+  
+  
+  /*slideshow styles*/
+  
+  .slideshow {
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: none;
+    height: 500px;
+  }
+  
+  
+  .item {
+    display: flex;
+    width: 800px;
+    align-items:center;
+  }
+    
+  .slideshow-container {
+    width: 5600px;
+    transition: 1s ease;
+    display: flex;
+    background-color: transparent;
+    margin-bottom: 100px;
+  }
+
+  
+  
+  .slideshow-container:hover {
+    animation-play-state: paused;
+  }
+  
+  .slide {
+    animation: slide 24s ease infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    7.07% {
+      transform: translateX(0);
+    }
+    14.14% {
+      transform: translateX(-14.28%);
+    }
+    21.21% {
+      transform: translateX(-14.28%);
+    }
+    28.28% {
+      transform: translateX(-28.56%);
+    }
+    35.35% {
+      transform: translateX(-28.56%);
+    }
+    42.42% {
+      transform: translateX(-42.84%);
+    }
+    56.56% {
+      transform: translateX(-42.84%);
+    }
+    63.63% {
+      transform: translateX(-57.12%);
+    }
+    70.7% {
+      transform: translateX(-57.12%);
+    }
+    77.77% {
+      transform: translateX(-71.4%);
+    }
+    84.84% {
+      transform: translateX(-71.4%);
+    }
+    91.91% {
+      transform: translateX(-85.68%);
+    }
+    99.98% {
+      transform: translateX(-85.68%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  } 
+  
+  .item img {
+    width: 60%;
+    background-size: cover;
+    
+  }
+  
+  .item .caption {
+    width: 40%;
+    color: rgb(12, 11, 11);
+    margin-left: 5%;
+    
+    
+}
+
+@media screen and (max-width: 800px){
+  .slideshow {
+    width: 100%; 
+
+  }  
+     
+  .slideshow-container {
+    width: 700%;
+   }
+  
+}
+
