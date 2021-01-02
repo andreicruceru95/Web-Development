@@ -7,29 +7,61 @@
             <link rel="stylesheet" href="static/game/bootstrap/css/bootstrap.min.css">
             <link rel="stylesheet" href="static/game/fonts/font-awesome.min.css">
             <link rel="stylesheet" href="static/game/css/game.css">
-            <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
             
         </head>
 
-        <body>
-
+        <body>        
+                       
+            <div class="text">
+                <p id="header">World of Zuul game</p>
+            </div>
             
-                <div class="home">
-                  <a href="index.html"><i class="fas fa-home"></i></a>                  
-                </div>
-             
+            <div class="text">
 
-            <div id="text">
-                <p id="header">Game application</p>
                 <p id="text">
-                    For our Programming Concepts module, we were asked to create a text-based game, as we did not yet covered
-                    graphic rendering with Java.
-                    We were given, as a model, the <a href="https://www.youtube.com/watch?v=O3etkSoHrR8&ab_channel=GladeSwope" target="_blank" rel="noopener noreferrer"
-                    >'Colosal cave adventures'</a> text-based game - one of the 
-                    first created computer games. <br><br>
+                    While learning Java programming, we were asked to create several basic applications using the BlueJ software. <br>
+                    Some of this applications include: A ticket machine software, a database software that keeps track of students and their 
+                    courses and modules, a stock management software and a text-based game. <br><br>
+
+                    I'm going to talk about this game and my learning experience while building it. 
+                </p>
+            </div>
+            <div id="image">
+                <img src="static/game/img/Mountain-s.JPG" alt="mountain" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <p> 
+                    The game we created could follow as an example, the Colosal Cave Adventure text-based game.
+                </p>
+            </div>
+            <div id="image">
                 
-                
-                    
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGDn9TG6Ugu7MZVoLzwwnBxQ13RCkkjkU-NA&usqp=CAU" width="100%" height="100%" alt="Colosal cave">
+            </div>
+            <div class="text">
+
+                <p id="quote">                   
+
+                    'Colossal Cave Adventure (also known as ADVENT, Colossal Cave, or Adventure)[1] is a text adventure game, 
+                    developed between 1975 and 1977 by Will Crowther for the PDP-10 mainframe. The game was expanded upon in 
+                    1977 with help from Don Woods, and other programmers created variations on the game and ports to other systems 
+                    in the following years. <br>
+                    In the game, the player controls a character through simple text commands to explore a cave rumored to be 
+                    filled with wealth. Players earn predetermined points for acquiring treasure and escaping the cave alive, 
+                    with the goal to earn the maximum number of points offered. The concept bore out from Crowther's background 
+                    as a caving enthusiast, with the game's cave structured loosely around the Mammoth Cave system in Kentucky. <br>
+                    Colossal Cave Adventure is the first known work of interactive fiction and, as the first text adventure game, 
+                    is considered the precursor for the adventure game genre. Colossal Cave Adventure also contributed towards 
+                    the role-playing and roguelike genres.' <br><br>
+                    <a href="https://en.wikipedia.org/wiki/Colossal_Cave_Adventure"  target="_blank" rel="noopener noreferrer">Wikipedia- Colosal Cave Adventure</a> <br> <br>
+                    <a href="https://www.youtube.com/watch?v=O3etkSoHrR8&ab_channel=GladeSwope" target="_blank" rel="noopener noreferrer"
+                    >Youtube- Colosal Cave Adventure Gameplay</a>
+                </p>         
+            </div>
+            <div class="text">
+                <p>
+                    Our lecturers decided that we could create teams of up to three students. This way, we can 
+                    gain some experience in working in teams, and also have the chance to learn from eachother.
                 </p>
             </div>
 
@@ -37,7 +69,10 @@
                 <div class="container">
                     <div class="intro">
                         <h2 class="text-center">Team </h2>
-                        <p class="text-center">We created a team of three to work together and create a better, more complex game.</p>
+                        <p class="text-center">
+                            Our lecturers decided that we could create teams of up to three students. This way, we can 
+                            gain some experience in working in teams, and also have the chance to learn from eachother.
+                        </p>
                     </div>
                     <div class="row people">
                         <div class="col-md-6 col-lg-4 item">
@@ -78,8 +113,7 @@
                                 <h3 class="name">Andrei</h3>
                                 <p class="title">Programing</p>
                                 <p class="description">Myself, I was responsible with bringing all the ideas to life.
-                                    While it seems like the hardest job, I found it really easy to write programming, and really hard to 
-                                    create a good story or a good quest.<br>
+                                    While it seems like the hardest job, I really enjoy writing programming. <br>
                                     Creating this game, was a great way to improve my Java programming skills.
                                     
                                 </p>
@@ -95,36 +129,143 @@
                 </div>
             </div>
 
-            <div id = "details">
-                <p id="game">The Game</p>
+            <div class = "text">
+
+                <p id="title">
+                    The Game
+                </p>
+
                 <p id ="text">
                     The action takes place in a post-apocalyptic world.
                     The player finds itself in a fortress, a place where humans are hiding 
-                    themselves from the outside evil. While exploring the fortress, the player 
-                    will find various items and gold(game currency) hidden in bags and barrels. <br>
-                    There are a few soldiers and 'humans' in the fortress. They will communicate with
-                     the player, and give him tasks.
-                </p>
-                <p id="graphic">Graphics</p>
-                <p id="text">
-                    As we are not yet familiar with graphics rendering, I decided to make the game a bit more fun 
-                    and print the game on the terminal window, and it looks a lot better than I anticipated. <br>
-
-                    The map is a 2D Array (Matrix), and the player has a visual field that only alows him to see 
-                    three squares around him. I used html4 and html5 characters to represend various objects on the map,
-                    like monsters and people.
-                </p>
-
-                <p id="project">Project</p>
-                <p id="text">
-                    I am planning to develop this game in the years to come, into a full application software 
-                    with 2D graphics and more hours of gameplay. <br>
-
-                    The source code is available on <a href="https://github.com/andreicruceru95/App06-Group" target="_blank" rel="noopener noreferrer">GitHub</a> as well as a breakdown of the gameplay 
-                    and plenty of pictures. You can find more information about the game 
-                    <a href="https://github.com/andreicruceru95/App06-Group/wiki/Game" target="_blank" rel="noopener noreferrer">here.</a>
+                    themselves from the outside evil. Here, the player will find out it's purpose - 
+                    to bring back the mythical stone and place it in the church. <br>
+                    The player must find out the location of it, and how to obtain it.                    
+                    <br><br>
+                    There are 7 maps in total: <br><br>
+                    <ol>
+                        <li><a href="#fortress">The Fortress</a></li>
+                        <li><a href="#town">The Town</a></li>
+                        <li><a href="#forest">The Forest</a></li>
+                        <li><a href="#dessert">The Dessert</a></li>
+                        <li><a href="#mountain">The Mountain</a></li>
+                        <li><a href="#cave">Spider Cave</a></li>   
+                        <li><a href="#tower">The Tower</a></li>                     
+                    </ol>
                 </p>
             </div>
+            <div class="text">
+                <p id="fortress">
+                    <strong>The fortress</strong> is the start point of the player. <br>
+                    In this map, the player will meet a shop owner, who will allow the player to 
+                    purchase health potions and chest keys. Next to this shop, there is a blacksmith, 
+                    where the player can improve it's equipment in exchange of gold, the game currency. <br>
+                    While exploring the fortress, the player will find various items and gold hidden inside buildings.
+                    The player will also obtain quests or get tips by interacting with people in the game. As rewards for
+                    completing this quests the player will be given gold and items. <br>
+                    Inside this fortress there is a drunk man. By interacting with it, he will tell the player that he 
+                    used to be an adventurer, and gives the player a magic stone that will allow the player to travel between 
+                    known locations. <br>       
+                    On the west side of the fortress, the player will meet a teleporter. Interacting with this will 
+                    allow the player to move to the next map, the Town.                
+                    <br><br>
+                </p>
+            </div>
+            <div id="image">
+                <img src="static/game/img/fortressBlueJ.JPG" alt="fortress" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <p id="town">
+                    <strong>The town</strong> is located west of the fortress. <br>
+                    Here, the player will find another shop, blacksmith and more people to interact with. <br>
+                    While traveling through this town the player will come across a guardian, which will 
+                    point the player to the next teleporter. <br>
+                    Reaching this teleporter means the player needs to explore a part of the forest, where 
+                    he will fight animals and obtain quest items and gold. <br>
+                    After finding the next teleporter, the player will be able to travel to the forrest.
+                    <br><br>
+                </p>
+            </div>
+            <div id="image">
+                <img src="static/game/img/Town-map.JPG" alt="town" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <p id="forrest">
+                    <strong>The forest</strong> is a map where the player can fight monsters and gain gold and items. <br>
+                    There is no other game objects here, but this map is designed like a maze, to spice things up. 
+                    This way, the player must explore the whole map to find clues. <br>
+                    This map connects to two other maps: The Dessert and The Mountain. <br>
+                    The two teleporters in this map are located in east and south.
+                    <br><br>
+                </p>
+            </div>
+            <div id="image">
+                <img src="static/game/img/Forest2-BlueJ.JPG" alt="forest" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <p id="dessert">
+                    <strong>The dessert</strong> is quite similar to the forest. <br>
+                    When the player enters the map, he will come across a corpse. Interacting with this corpse, 
+                    the player will find a jurnal 
+                    that gives tips about the dessert and it's importance. <br>
+                    At the center of the maps, a teleporter will lead to the Spider Cave, but only if the player has 
+                    obtained the spider key, which is guarded by the Nine Tails, a fox, up on the mountain.
+                    <br><br>
+                </p>
+            </div>
+            <div id="image">
+                <img src="static/game/img/Dessert-map.JPG" alt="dessert" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <p id="mountain">
+                    <strong>The Mountain</strong> - here, the player can colect quest items, and fight the Nine Tails to obtain the spider key. <br>
+                    The chance of dropping this key is 30%, so more attempts will be required.
+                    <br><br>
+                </p>
+            </div>
+            <div id="image">
+                <img src="static/game/img/Mountain-blueJ.JPG" alt="mountain" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <p id="cave">
+                    <strong>The Spider cave</strong> is very important as it leads to the tower. <br>
+                    In this cave, the player must find the spider queen and fight her to obtain the tower key. <br>
+                    When the queen dies, a teleporter will appear around the fight scene. This teleporter will lead to the tower,
+                    if the player has obtained the key.
+                    <br><br>
+                </p>
+            </div>
+            <div id="image">
+                <img src="static/game/img/spider-cave-map.JPG" alt="cave" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <p id="tower">
+                    <strong>The tower</strong> is the hardest and most important map of the game. <br>
+                    The player finds himself at the first floor, where some low level monsters are located. <br>
+                    In order to progress through the tower, the player must clear the room. Once the room is cleared, a teleporer will
+                    appear, and will take the player to the next floor, that contains stronger monsters.<br>
+                    The tower has 6 floors in total. On the fifth floor, the player will face the death, the second strongest monster 
+                    in the game. Killing this, will make the player face the Red Dragon which drops the Mythical stone that the player 
+                    needs to save the world. <br>
+                    After the player kills the dragon, he will be teleported back in the spider cave.
+                    <br><br>
+                </p>
+            </div>
+            <div id="image">
+                <img src="static/game/img/Tower lvl1.JPG" alt="t1" width="100%" height="100%">
+                              
+            </div>
+            <div id="image">
+                <img src="static/game/img/tower-3.JPG" alt="t3" width="100%" height="100%">                
+            </div>
+            <div id="image">
+                <img src="static/game/img/tower-5.JPG" alt="t5" width="100%" height="100%">
+                
+            </div>
+            <div id="image">
+                <img src="static/game/img/tower-6.JPG" alt="t6" width="100%" height="100%">
+            </div>
+            
                         
             <script src="static/game/js/jquery.min.js"></script>
             <script src="static/game/bootstrap/js/bootstrap.min.js"></script>
