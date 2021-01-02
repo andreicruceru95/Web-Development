@@ -1,16 +1,17 @@
 
 #review{
     text-align: center;
-    color: #000;
+    color: rgb(0, 0, 0);
     font-size: 5vh;
    font-weight: bold;
     
 }
 
 body {
-    background-color: aliceblue;
+    background-color: #E0E7E9;
     display: block;
-  } 
+    color: rgb(0, 0, 0);
+    } 
 
 
 * {
@@ -73,22 +74,6 @@ body {
   .sub hover {
     background-color: #45a049;
   }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, button[type=button] {
-      width: 100%;
-      margin-top: 0;
-      overflow: scroll;
-    }
-    #feedbackTable{
-      font-size: 1vh;
-      color: #000;
-    }
-    
-  }
-
- 
   #feedbackTable {
     font-family: Arial, Helvetica, sans-serif;
     width: 70%;
@@ -97,7 +82,7 @@ body {
   }
   
   #feedbackTable td, #feedbackTable th {
-    border: 1px solid #ddd;
+    border: 1px solid rgb(0, 0, 0);
     padding: 8px;
   }
   
@@ -109,14 +94,14 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #035504;
-    color: white;
+    background-color: #078809;
+    color: rgb(0, 0, 0);
   }
 
   
   #fb {
       font-size: 3vh;
-      color: #000;
+      color: rgb(0, 0, 0);
       text-align: center;
       margin-top: 100px;
   }
@@ -124,6 +109,34 @@ body {
     margin: 100px auto;
     margin-bottom: 100px;
   }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, button[type=button] {
+      width: 100%;
+      margin-top: 0;
+      overflow: scroll;
+    }
+    #feedbackTable{
+      font-size: 1vh;
+      color: rgb(0, 0, 0);
+      width: 90%;
+      margin-left: 5%;
+
+    }
+    .container{
+      margin-left: 5%;
+      margin-right: 5%;
+      width: 90%
+    }
+    #review {
+      font-size: 20px;
+    }
+    
+  }
+
+ 
+  
   
   
 
