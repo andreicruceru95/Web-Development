@@ -95,10 +95,10 @@
   
   .item .caption {
     width: 40%;
-    color: rgb(12, 11, 11);
-    margin-left: 5%;
-    
-    
+    margin-left: 5%;   
+}
+.caption{
+  color: white;
 }
 
 @media screen and (max-width: 800px){
