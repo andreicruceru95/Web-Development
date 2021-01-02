@@ -2,40 +2,29 @@
     <html>
         <head>
             <title>Places I visited</title>
-            
             <script type ="text/javascript" src="static/jquery-3.5.1.min.js"></script>
             <script type = "text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             
             <link rel="stylesheet" href="static/visit-places/css/slideshow.css">
+            <link rel="stylesheet" href="static/about/css/footer.css">
+            <link rel="stylesheet" href="static/about/fonts/ionicons.min.css">
             <link rel="stylesheet" href="static/visit-places/css/visit-places.css">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
             
         </head>  
             
-        <body>
-              
-              
-              
-              <div class="bodyMain"> 
-                
-                   <div class="home">
-                      <a href="index.html"><i class="fas fa-home"></i></a>
-                      
-                    </div>
-                 
- 
- 
-                <div class="header">
-                    <h1>I love holidays!</h1>
-                    <h2>I think we live on a beautiful planet, and I wish I could travel the whole world one day.
-                        I have seen some countries and some major cities, and I thought I should share some memories  
-                        with you!</h2>
+        <body> 
+          <div class="bodyMain"> 
+            <div class="header">
+              <h2>I think we live on a beautiful planet, and I wish I could travel the whole world one day.
+                  I have seen some countries and some major cities, and I thought I should share some memories  
+                  with you!
+                </h2>
                 </div>
-                <section class="slideshow">
+                  <section class="slideshow">
                     <div class="slideshow-container slide">
-
                       <div class="item">
                         <img src="static/ro/jpg/romania1.jpg" />
                         <div class="caption">
@@ -43,32 +32,30 @@
                             beautiful geographic mix of mountains, hills, farm grounds and beaches.
                         </div>
                       </div>
-
                       <div class="item">
                         <img src="static/uk/jpg/uk1.jpg" />
                         <div class="caption">
                             Uk, the country of my residence, is an island hosting one of the strongest 
                             civilisation, that once owned 84% of the global land.
                         </div>
-                      </div>
-                  
+                      </div>                  
                       <div class="item">
                         <img src="static/am/jpg/am1.jpg" />
                         <div class="caption" id="caption">
-                            <p>'God created earth, but the dutch created Netherlands'</p>
-                            Amsterdam, built on an artificial land, is the capital of Netherlands. It has 
-                            a beautiful structure and an interesting culture.
+                            <p>
+                              'God created earth, but the dutch created Netherlands'
+                            </p>
+                              Amsterdam, built on an artificial land, is the capital of Netherlands. It has 
+                              a beautiful structure and an interesting culture.
                         </div>
                       </div>
-
                       <div class="item">
                         <img src="static/fl/jpg/fl1.jpg" />
                         <div class="caption">
                             Florida, the most popular home of Disney World, is a beautiful, sunny state 
                             of the US. 
                         </div>
-                      </div>
-                      
+                      </div>                      
                       <div class="item">
                         <img src="static/ib/jpg/ib1.jpg" />
                         <div class="caption">
@@ -76,16 +63,14 @@
                             hotest countries of Europe and as part of EU, an afordable destination for everyone with 
                             many islands to pick from.
                         </div>
-                      </div>
-                      
+                      </div>                      
                       <div class="item">
                         <img src="static/ir/jpg/ir1.jpg" />
                         <div class="caption">
                             Dublin is the biggest city in north Ireland. I was very impressed with the live 
                             music and atmosphere in it's beautiful pubs.
                         </div>
-                      </div>
-                      
+                      </div>                      
                       <div class="item">
                         <img src="static/it/jpg/it1.jpg" />
                         <div class="caption">
@@ -93,21 +78,18 @@
                             the oldest cities in Italy. The ruins of an old civilisation is proof of the power 
                             they had thousands of years ago. They also host the biggest church in the world, St Peter Basilica 
                             and some amazing art of Michel Angello.
-
                         </div>
-                      </div>
-                    
+                      </div>                    
                     </div>
                 </section>
-              </div>  
-            
-              <div class="bodyRo">  
-                <div style="float: left;" class="Romania">
-                    <button id="prev" onclick="prev()"> Prev </button>
-                    <img id="slider" src="static/ro/jpg/romania1.jpg" width="600px" height="600px"/>
-                    <button id="next" onclick="next()"> Next </button>
-                </div>    
-                <div style="float: left;" class ="textRo">
+              </div>              
+              <div class="body">  
+                <div class="prev"><button id="prev" onclick="prev()"> Prev </button></div>
+                  <div style="float: left;" class="img">                    
+                     <img id="slider" src="static/ro/jpg/romania1.jpg" width="100%" height="100%"/>              
+                  </div>
+                  <div class="next"><button id="next" onclick="next()"> Next </button></div>                    
+                <div style="float: left;" class ="text">
                   <p>Romania</p>
                   <ol>
                   <li>It boasts the tallest wooden church in Europe</li>
@@ -128,20 +110,16 @@
                   </ol>
                   <a href="https://theculturetrip.com/europe/romania/articles/15-fascinating-facts-about-romania/" 
                   target="_blank" rel="noopener noreferrer">15 interesting facts about Romania</a>
-
                 </div>
-
                 <script type="text/javascript" src="static/ro/js/Romania.js" ></script>
-              </div>
-              
-              <div class="bodyUk">    
-                <div style="float: right;" class="Uk">
-                  <button id="prev" onclick="prevUk()"> Prev </button>
-                  <img id="sliderUk" src="static/uk/jpg/uk10.jpg" width="600px" height="600px"/>
-                  <button id="next" onclick="nextUk()"> Next </button>
-                </div>    
-                
-                <div style="float: right;" class ="textUk">
+              </div>              
+              <div class="body">    
+                <div class="prev"><button id="prev" onclick="prevUk()"> Prev </button></div>
+                  <div style="float: left;" class="img">                    
+                     <img id="sliderUk" src="static/uk/jpg/uk10.jpg" width="100%" height="100%"/>              
+                  </div>
+                  <div class="next"><button id="next" onclick="nextUk()"> Next </button></div>  
+                <div style="float: right;" class ="text">
                   <p>United Kingdom</p>
                   <ol>
                     <li>Tea is by far the most popular drink among Brits. It is estimated that they drink on average 165 million cups of tea every day</li>
@@ -153,19 +131,16 @@
                   </ol>
                   <a href="https://www.studying-in-uk.org/united-kingdom-facts/" target="_blank" rel="noopener noreferrer"
                   >80 facts about United Kingdom</a>
-                </div> 
-              
+                </div>               
                 <script type="text/javascript" src="static/uk/js/uk.js" ></script>
-              </div>
-                  
-                <div class="bodySp">
-                  <div style="float: left;" class="Spain">
-                    <button id="prev" onclick="prevSp()"> Prev </button>
-                    <img id="sliderSp" src="static/ib/jpg/ib10.jpg" width="600px" height="600px"/>
-                    <button id="next" onclick="nextSp()"> Next </button>
-                  </div>  
-             
-                  <div style="float: left;" class ="textSp">
+              </div>                  
+                <div class="body">
+                  <div class="prev"><button id="prev" onclick="prevSp()"> Prev </button></div>
+                  <div style="float: left;" class="img">                    
+                      <img id="sliderSp" src="static/ib/jpg/ib10.jpg" width="100%" height="100%"/>             
+                  </div>
+                  <div class="next"><button id="next" onclick="nextSp()"> Next </button></div>    
+                  <div style="float: left;" class ="text">
                     <p>Spain</p>
                     <ol>
                       <li>The EU’s second-largest country</li>
@@ -178,18 +153,15 @@
                     </ol>
                     <a href="https://www.expatica.com/es/moving/about/facts-about-spain-109108/" target="_blank" rel="noopener noreferrer">30 facts about Spain</a>
                   </div> 
-
                   <script type="text/javascript" src="static/ib/js/Spain.js" ></script>
                 </div>
-              
-                <div class="bodyNl">
-                  <div style="float: right;" class="Holland">
-                    <button id="prev" onclick="prevNl()"> Prev </button>
-                    <img id="sliderNl" src="static/am/jpg/am1.jpg" width="600px" height="600px"/>
-                    <button id="next" onclick="nextNl()"> Next </button>
+                <div class="body">
+                  <div class="prev"><button id="prev" onclick="prevNl()"> Prev </button></div>
+                  <div style="float: left;" class="img">                    
+                    <img id="sliderNl" src="static/am/jpg/am1.jpg" width="100%" height="100%"/>               
                   </div>
-
-                  <div style="float: right;" class ="textNl">
+                  <div class="next"><button id="next" onclick="nextNl()"> Next </button></div>       
+                  <div style="float: right;" class ="text">
                     <p>Amsterdam</p>
                     <ol>
                       <li>Dancing was forbidden in Amsterdam at the beginning of the 20th century</li>
@@ -203,19 +175,15 @@
                     <a href="https://whatsupwithamsterdam.com/fun-facts-amsterdam/" target="_blank" rel="noopener noreferrer"
                     >20 fun facts about Amsterdam</a>
                   </div> 
-                    
                   <script type="text/javascript" src="static/am/js/Nl.js" ></script>
-                    
                 </div>
-                
-                <div class="bodyFl">
-                  <div style="float: left;" class="America">
-                    <button id="prev" onclick="prevFl()"> Prev </button>
-                    <img id="sliderFl" src="static/fl/jpg/fl10.jpg" width="600px" height="600px"/>
-                    <button id="next" onclick="nextFl()"> Next </button>
+                <div class="body">
+                  <div class="prev"><button id="prev" onclick="prevFl()"> Prev </button></div>
+                  <div style="float: left;" class="img">                    
+                     <img id="sliderFl" src="static/fl/jpg/fl10.jpg" width="100%" height="100%"/>              
                   </div>
-                  
-                  <div style="float: left;" class ="textFl">
+                  <div class="next"><button id="next" onclick="nextFl()"> Next </button></div>
+                  <div style="float: left;" class ="text">
                       <p>Florida</p>
                       <ol>
                         <li>Florida has the most golf courses of any state in America</li>
@@ -227,19 +195,16 @@
                       <a href="https://www.myimprov.com/10-fun-interesting-facts-about-florida/" target="_blank" rel="noopener noreferrer"
                       >10 fun facts about Florida</a>
                   </div> 
-
                   <script type="text/javascript" src="static/fl/js/Fl.js" ></script>
                 </div>    
-                </div>
-                
-                <div class="bodyIr">
-                  <div style="float: right;" class="Ireland">
-                    <button id="prev" onclick="prevIr()"> Prev </button>
-                    <img id="sliderIr" src="static/ir/jpg/ir10.jpg" width="600px" height="600px"/>
-                    <button id="next" onclick="nextIr()"> Next </button>
-                  </div> 
-                  
-                  <div style="float: right;" class ="textIr">
+              </div>
+                <div class="body">
+                  <div class="prev"><button id="prev" onclick="prevIr()"> Prev </button></div>
+                  <div style="float: left;" class="img">                    
+                     <img id="sliderIr" src="static/ir/jpg/ir10.jpg" width="100%" height="100%"/>              
+                  </div>
+                  <div class="next"><button id="next" onclick="nextIr()"> Next </button></div>   
+                  <div style="float: right;" class ="text">
                       <p>Dublin</p>
                       <ol>
                         <li>The name Dublin comes from an old Irish Celtic name meaning “Black Pool”</li>
@@ -253,19 +218,15 @@
                       </ol>
                       <a href="https://www.beelovedcity.com/facts-dublin" target="_blank" rel="noopener noreferrer">21 Facts about Dublin</a>
                   </div> 
-
                   <script type="text/javascript" src="static/ir/js/Ir.js" ></script>
-                    
                 </div>
-                
-                <div class="bodyIt">
-                  <div style="float: left;" class="Italy">
-                    <button id="prev" onclick="prevIt()"> Prev </button>
-                    <img id="sliderIt" src="static/it/jpg/it10.jpg" width="600px" height="600px"/>
-                    <button id="next" onclick="nextIt()"> Next </button>
+                <div class="body">
+                  <div class="prev"><button id="prev" onclick="prevIt()"> Prev </button></div>
+                  <div style="float: left;" class="img">                    
+                       <img id="sliderIt" src="static/it/jpg/it10.jpg" width="100%" height="100%"/>            
                   </div>
-
-                  <div style="float: left;" class ="textIt">
+                  <div class="next"><button id="next" onclick="nextIt()"> Next </button></div>
+                  <div style="float: left;" class ="text">
                    <p>Italy</p>
                    <ol>
                      <li>Rome is over 2,000 years old</li>
@@ -278,12 +239,21 @@
                    </ol>
                    <a href="https://www.roughguides.com/article/fun-facts-about-italy/" target="_blank" rel="noopener noreferrer">30 fun facts about Italy</a>
                   </div> 
-
                   <script type="text/javascript" src="static/it/js/It.js" ></script>
-                    
-                </div>
-                
+                </div>      
+                <div class="footer">
+                  <footer>
+                      <div class="social">
+                          <a href="https://github.com/andreicruceru95" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-github"></i></a>
+                          <a href="https://www.linkedin.com/in/andrei-cruceru-517473116/" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-linkedin"></i></a>
+                          <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-twitter"></i></a>
+                          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-facebook"></i></a></div>
+                      <ul class="list-inline">
+                          <li class="list-inline-item"><a href="index.html">Home</a></li>
+                          <li class="list-inline-item"><a href="review.html">Feedback</a></li>
+                          <li class="list-inline-item"><a href="Contact.html">Contact</a></li>
+                      </ul>
+                  </footer>
+              </div>
         </body>
-        
-           
       </html>
