@@ -21,4 +21,4 @@ const dataS = [
     setTimeout(() => cycleImages(images, container, step), step * images.length)
   }
   
-  cycleImages(dataS, node, 3000)
+  cycleImages(dataS, node, 6500)
