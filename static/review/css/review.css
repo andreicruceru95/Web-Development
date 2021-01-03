@@ -1,14 +1,14 @@
 
 #review{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 5vh;
    font-weight: bold;
     
 }
 
 body {
-    background-color: #E0E7E9;
+    background-color: #354649;
     display: block;
     color: rgb(0, 0, 0);
     } 
@@ -16,6 +16,7 @@ body {
 
 * {
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   input[type=text], select, textarea {
@@ -33,7 +34,7 @@ body {
   
  .container {
     border-radius: 5px;
-    background-color: #d3d1d1;
+    background-color: #56c6c6;
     padding: 20px;
     margin-left: 20%;
     margin-right: 20%;
@@ -60,10 +61,10 @@ body {
     clear: both;
   }
   .sub{
-    background-color: #4CAF50;
+    background-color: #354649;
     border-radius: 8px;
     margin-top: 10px;
-    color: #4CAF50;
+    color: #56c6c6;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -71,37 +72,45 @@ body {
     
 
   }
-  .sub hover {
-    background-color: #45a049;
+  .sub:hover {
+    background-color: #56c6c6;
+    transition: 0.5s;
   }
   #feedbackTable {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
   }
   
   #feedbackTable td, #feedbackTable th {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(250, 250, 250);
     padding: 8px;
+    color: white;
   }
   
-  #feedbackTable tr:nth-child(even){background-color: #f2f2f2;}
+  #feedbackTable tr:nth-child(even){
+    background-color: #525252;
+  }
   
-  #feedbackTable tr:hover {background-color: #ddd;}
+  #feedbackTable tr:hover {
+    background-color: #354649;
+    color: white;
+    transition: 1s;
+  }
   
   #feedbackTable th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #078809;
-    color: rgb(0, 0, 0);
+    background-color: #56c6c6;
+    color: rgb(255, 255, 255);
   }
 
   
   #fb {
       font-size: 3vh;
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       text-align: center;
       margin-top: 100px;
   }
@@ -119,7 +128,7 @@ body {
     }
     #feedbackTable{
       font-size: 1vh;
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       width: 90%;
       margin-left: 5%;
 
