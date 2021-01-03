@@ -1,65 +1,13 @@
-.fa-home {
-    color: red;
-    font-size: 40px;
-    background: transparent;
-    border: none;
-    padding: 15px;
-    border-radius: 30px;
-}
-.fa-github
-{
-    color: red;
-    font-size: 40px;
-    background: transparent;
-    border: none;
-    padding: 15px;
-    border-radius: 30px;
-}
-.fa-linkedin-in, .fa-envelope, .fa-info-circle
-{
-    color: red;
-    font-size: 40px;
-    background: transparent;
-    border: none;
-    padding: 15px;
-    border-radius: 30px;
-}
-.fa-user
-{
-    color: red;
-    font-size: 40px;
-    background: transparent;
-    border: none;
-    padding: 15px;
-    border-radius: 30px;
-}
-.fa-bars
-{
-    color: red;
-    font-size: 40px;
-    background: transparent;
-    border: none;
-    padding: 15px;
-    border-radius: 30px; 
-}
-.fa-gamepad
-{
-    color: red;
-    font-size: 40px;
-    background: transparent;
-    border: none;
-    padding: 15px;
-    border-radius: 30px; 
-}
-.fa-plane{
-    color: red;
-    font-size: 40px;
-    background: transparent;
-    border: none;
-    padding: 15px;
-    border-radius: 30px; 
-}
 
+.fa-linkedin-in, .fa-envelope, .fa-info-circle, .fa-user, .fa-bars, .fa-github
+{
+    color: red;
+    font-size: 40px;
+    background: transparent;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+}
 .dropbtn {
   background: transparent;
   border: none;
@@ -69,6 +17,11 @@
   border: none;
   cursor: pointer;
   z-index: 1;
+}
+b{
+  height: 70px;
+  width: 50px;
+  font-size: 20px;
 }
 
 .dropdown {
@@ -99,14 +52,29 @@
   z-index: 1;
 }
 
-.dropdown-content a:hover {background: transparent; border: none;}
+.dropdown-content a:hover {
+  background: transparent;
+   border: none;
+  }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block
+  display: block;
  }
 
 .dropdown:hover .dropbtn {
   background: transparent;
   border: none;;
+}
+.dropdown-content b{
+  text-align: left;
+  color: white;
+  display: none;
+}
+.dropdown-content a:hover i{
+  display: none;
+}
+.dropdown-content a:hover b{
+  display: block;
+  transition: 2s;
 }
