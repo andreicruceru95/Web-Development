@@ -1,9 +1,8 @@
 .footer {
   padding: 40px 0;
-  background-color: rgb(141, 132, 132);
-  color: #4b4c4d;
+  background-color: #56c6c6;  
+  }
   
-}
 
 .footer ul {
   padding: 0;
@@ -19,13 +18,13 @@
 }
 
 .footer ul a {
-  color: inherit;
+  color: white;
   text-decoration: none;
-  opacity: 0.8;
 }
 
 .footer ul a:hover {
-  opacity: 1;
+  color: #354649 ;
+  transition: 0.5;
 }
 
 .footer .social {
@@ -41,10 +40,10 @@
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #ccc;
+  border: 1px solid #354649;
   margin: 0 8px;
-  color: inherit;
-  opacity: 0.75;
+  color: white;
+  opacity: 0.5;
 }
 
 .footer .social > a:hover {
