@@ -1,7 +1,10 @@
 
 body{    
-  background-color: rgb(64, 64, 65);   
+  background-color: #354649 ;   
   color: white;
+}
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #refference {
   text-align: center;
@@ -32,6 +35,10 @@ float: right;
 #image{
  background-size: cover;
  text-align: center;
+ height: 600px;
+}
+#image img{
+  background-size: cover;
 }
 .statement, .text{
  text-align: left;   
@@ -44,20 +51,27 @@ float: right;
 h2{
  color: rgb(255, 255, 255);
  font-weight: bold;
- text-align: left;
+ margin-top: 10%;
+ text-align: center;
  margin-left: 10%;
  margin-bottom: 10%;
  font-size: 40px;
 }
 #ds{
+  padding-top: 100px;
+  margin-bottom: 100px;
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 #refference{
  text-align: center;
  color: rgb(255, 255, 255);
  font-size: 30px;
+}
+a{
+  color: #56c6c6;
 }
 
 @media screen and (max-width: 600px){
