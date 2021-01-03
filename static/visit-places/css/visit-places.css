@@ -3,10 +3,10 @@ html {
   box-sizing: border-box;
 }
 body{
-    background-color: #6C7A89 ;
+    background-color: #354649  ;
     font-size: x-large;
     padding: none;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
 }
 .bodyMain {
     background-image: url("earth.jpg");
@@ -46,9 +46,13 @@ body{
   color: rgb(255, 255, 255);
 }  
 .body a{
-  color: white;
+  color: #56c6c6;
   font-style: italic;
  float: right;
+}
+.body a:hover{
+  color: white;
+  transition: 1s;
 }
 
 p{
@@ -68,7 +72,15 @@ p{
   height: 100%;  
 }
 #prev, #next{
-  background-color: rgb(111, 250, 111);
+  background-color: #56c6c6;
+}
+#prev:hover{
+  background-color: green;
+  transition: 0.5s;
+}
+#next:hover{
+  background-color: green;
+  transition: 0.5s;
 }
 @media screen and (max-width: 1200px){
   .body{
