@@ -1,0 +1,38 @@
+.vertical-nav{
+  position: fixed;
+  width: 10vw;
+  margin-right: 90%;
+  height: 100%;
+  float: left;
+  background-color: rgb(34, 31, 31);
+  margin-left: 0;
+}
+.button-group{
+  font-size: 3vw;
+}
+.vnav-b{   
+  height: 40px;     
+  width: 100%;
+  background-color: transparent;    
+  color: inherit;
+  font-family: inherit;  
+  border-style: none;
+  box-shadow: none;
+  border-top: 1px solid #56c6c6;
+border-bottom: 1px solid #56c6c6;
+}
+.list{
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0;
+}
+
+.vnav-b:hover{
+  background-color: #56c6c6;
+  transition: 0.5s;
+}
+@media screen and (max-width: 860px){
+  .button-group{
+    font-size: small;
+  }
+}
