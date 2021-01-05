@@ -1,38 +1,53 @@
 body{
-    background-color: #354649;   
-    display: block;
-}
-*{
+    background-color: #354649;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-}
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 98vw;
+    height: 100vh;    
 
-p{
-    font-size: 50px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: inherit;
     text-align: center;
-    letter-spacing: 2px;
-    line-height: 1.2;
-    margin-top: 100px;
-    font-weight: bold;
-    margin-bottom: 30px;
+    vertical-align: middle;
 }
-
-#modules{
+#ml1, #ml2,#ml3,#ml4,#ml5,#ml6{
+    position: absolute;
+    font-family: inherit;
+    color: inherit;
+    width: 80%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 1.4;
     margin-left: 15%;
-    font-weight: bold;
-
+    float: left;
+    text-align: left;    
+    overflow: hidden;
 }
-
-#introduction, #education, #hobbies, #learning{
-    margin-left: 10%;
-    margin-right: 10%;
-    letter-spacing: 2px;
-    line-height: 1.2;
-    margin-top: 100px;
-    font-size: 30px;
+#ml2,#ml3,#ml4,#ml5,#ml6{
+    display: none;
 }
-#learning{
-    margin-bottom: 100px;
+h2{
+    color: #56c6c6;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-weight: bolder;
+    font-size: 50px;
+}
+h2:hover
+{
+        -webkit-transform: rotateZ(-2deg);
+        -ms-transform: rotateZ(-2deg);
+        transform: rotateZ(-2deg);
+        transition: 2s;
+}
+.ml1{
+    text-align: center;
 }
 #myself{
     text-align: center;
@@ -41,38 +56,26 @@ p{
     border-radius: 20%;
     margin-top: 10px;
     margin-bottom: 3%;
-    height: 390px;
-    width: 290px;
-    
+    height: 490px;
+    width: 390px;    
 }
-#introduction p, #education p, #hobbies p, #learning p{
-    font-size: 40px;
-    text-align: center;
+p{
     color: #56c6c6;
+    font-size: 30px;
+    margin-left: 15%;
+    margin-bottom: 5%;
 }
 a{
-    color: rgb(178, 228, 235);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: #56c6c6
 }
-@media screen and (max-width: 770px){
-    #introduction p, #education p, #hobbies p, #learning p{
-        font-size: 30px;
+@media screen and (max-width: 600px){
+    .ml1, .ml2, .ml3, .ml4{
+        font-size: larger;
     }
     p{
-        font-size: 40px;
+        font-size: 20px;
     }
-    #introduction, #education, #hobbies, #learning{
-    font-size: 20px;
-    }
-    #myself img{
-        border-radius: 20%;
-        margin-top: 10px;
-        margin-bottom: 3%;
-        height: 330px;
-        width: 230px;
-        
+    h2{
+        font-size: 35px;
     }
 }
-
-  
-
