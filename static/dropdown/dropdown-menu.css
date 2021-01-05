@@ -1,12 +1,13 @@
 
-.fa-linkedin-in, .fa-envelope, .fa-info-circle, .fa-user, .fa-bars, .fa-github
+.fa-linkedin-in, .fa-envelope, .fa-user-tie, .fa-bars, .fa-github, .fa-newspaper, .fa-comment-dots, .fa-file-code
 {
     color: red;
-    font-size: 40px;
+    font-size: 30px;
     background: transparent;
     border: none;
     padding: 15px;
     border-radius: 30px;
+    margin-bottom: 5px;
 }
 .dropbtn {
   background: transparent;
@@ -76,5 +77,5 @@ b{
 }
 .dropdown-content a:hover b{
   display: block;
-  transition: 2s;
+  transition: 1s;
 }
