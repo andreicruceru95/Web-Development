@@ -1,193 +1,141 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <!--@media doesn't work without this-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>About-me</title>
-    <!--Css stylesheets and bootstrap files-->
-    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="static/about/css/nav-bar.css">
+  <head>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="static/nav-bar.css">
     <link rel="stylesheet" href="static/about/css/about.css">
-    <link rel="stylesheet" href="static/about/css/footer.css">
-    <link rel="stylesheet" href="static/about/fonts/ionicons.min.css">
-    
-</head>
 
-<body>
-    <!--Top navigation bar-->
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Andrei Cruceru</a>
-            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav mr-auto">
-                    <!--List of options-->
-                    <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#learning">Learning</a></li>
-                    <!--Dropdown options-->
-                    <li class="nav-item dropdown">
-                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Projects </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="BlueJ-Game.html">Zuul Game</a>
-                            <a class="dropdown-item" href="https://github.com/andreicruceru95/AndreiCruceru-BlueJ/wiki/App04-Product-Stock-Control " target="_blank" rel="noopener noreferrer">
-                                Stock App</a>
-                            <a class="dropdown-item" href="https://github.com/andreicruceru95/AndreiCruceru-BlueJ/wiki/App03-Student-Grades" target="_blank" rel="noopener noreferrer" >Sudents App</a>
-                        </div>
-                    </li>
-                </ul>
-                <!--Feedback and contact buttons-->
-                <span class="navbar-text actions"> 
-                    <a class="feedback" href="review.html">Feedback</a>
-                    <a class="btn btn-light action-button" role="button" href="Contact.html">Contact</a>
-                </span>
+  </head>
 
-            </div>
+  <body>
+    <div class="container">
+      <div class="vertical-nav">
+        <h4 class="text-center">
+          <img class="img-fluid" src="" width=100%>
+        </h4>
+        <h4></h4>
+        <div class="button-group">
+          <ul class="list">
+            <li class="list-item"><button class="vnav-b" id="why" onclick="displayMl1()">About me</button></li>
+            <li class="list-item"><button class="vnav-b" id="what" onclick="displayMl2()">Timeline</button></li>
+            <li class="list-item"><button class="vnav-b" id="foundations" onclick="displayMl3()">Education</button></li>
+            <li class="list-item"><button class="vnav-b" id="relations" onclick="displayMl4()">Skills </button></li>
+            <li class="list-item"><button class="vnav-b" onclick="location.href='index.html'">Home</button></li>
+          </ul>
         </div>
-    </nav>
-    <div class="center-title">
-        <p>About me</p>
-    </div>
-    <!--Immage of myself-->
-    <div id="myself">
-        <img src="static/about/css/myself.jpeg" width="100%" height="100%" alt=myself">
-    </div>
+      </div>
+      <div id="ml1">
+        <h2>About Me</h2>
+        <!--Immage of myself-->
+        <div id="myself">
+          <img src="static/about/css/myself.jpeg" width="100%" height="100%" alt=myself">
+        </div>
 
-    <div id="introduction">
+      </div>
+      <div id="ml2">
+        <h2>
+          Timeline
+        </h2>
         <p>Present:</p>
         Full-time student at Buckinghamshire New University and part-time Specialist cleaning manager at Ryemead Comercial Group. <br><br>
         I am curently studying Data science at Bukcs New University. I enrolled for this course in September
         2020 and I am expected to graduate in June 2023. <br> <br> What is <a href="Data-science.html">Data Science</a>? <br>
         <a href="https://bucks.ac.uk/">About Buckinghamshire New University</a>. <br> <br>
-        Enrolling on this course is one of my teenagehood dreams. I have always been pasioned about computers and 
+        Enrolling on this course is one of my teenagehood dreams. I have always been pasioned about computers and
         computer programming, and therefore is one of my biggest recent accomplishments. <br> <br>
-        As a Specialist Cleaning Manager, I undertake various project in the cleaning industry. The tasks are always challanging, and include 
-        Railway work, Steam Cleaning, Deep Restoration, industrial roof cleaning, Deep Factory cleaning, industrial carpet cleaning, industrial floor 
+        As a Specialist Cleaning Manager, I undertake various project in the cleaning industry. The tasks are always challanging, and include
+        Railway work, Steam Cleaning, Deep Restoration, industrial roof cleaning, Deep Factory cleaning, industrial carpet cleaning, industrial floor
         cleaning, Comercial Window Cleaning and most recently, Covid-19 Desinfection. <br> <br>
-        My role involves managing  the projects and on site teams across the country, writing reports and feedbacks, and dealing with customers. <br>
+        My role involves managing the projects and on site teams across the country, writing reports and feedbacks, and dealing with customers. <br>
         Many of this projects were carried out for prestigious clients like F1 Williams, Equinix Data Centre, Winchester University, ISS, Licester Hospital, Wycombe Abbey,
         Kawasaky Motors, Johnson & Johnson, Intel, YMCA, Aktrion Group, Hilton and many others. <br><br>
-        About <a href="https://ryemeadgroup.co.uk/"target="_blank" rel="noopener noreferrer">Rymead Group</a>. <br><br>
-        I live in High Wycombe, Buckinghamsire, home of Buckinghamshire New University. I have been living here since 
+        About <a href="https://ryemeadgroup.co.uk/" target="_blank" rel="noopener noreferrer">Rymead Group</a>. <br><br>
+        I live in High Wycombe, Buckinghamsire, home of Buckinghamshire New University. I have been living here since
         December 2015, one year after I graduated college. <br> Before that, I lived in Romania which is the country of my nationality. <br> <br>
-        Visit <a href="https://www.visitbuckinghamshire.org/article/high-wycombe"target="_blank" rel="noopener noreferrer">High Wycombe</a>. <br>
-        Visit <a href="https://www.britannica.com/place/Romania"target="_blank" rel="noopener noreferrer">Romania</a> <br><br>
-        
+        Visit <a href="https://www.visitbuckinghamshire.org/article/high-wycombe" target="_blank" rel="noopener noreferrer">High Wycombe</a>. <br>
+        Visit <a href="https://www.britannica.com/place/Romania" target="_blank" rel="noopener noreferrer">Romania</a> <br><br>
+
         <p>Past:</p>
-        I lived in Romania until 2015. This is where I obtaind many skills and qualifications while attending college. 
+        I lived in Romania until 2015. This is where I obtaind many skills and qualifications while attending college.
         I was a very good student and wanted to continue my higher education there, but unable due to financial reasons. <br>
         However, this seems to have been beneficial to me, as now I can attend a better, more prestigious and more globaly recognised university. <br>
-        One year after my college graduation I moved to UK, where I carried a variety of jobs and build many skills. While living and 
-        working in the UK, I continued to study from home, completing online courses and learning the basics of programming languages like 
+        One year after my college graduation I moved to UK, where I carried a variety of jobs and build many skills. While living and
+        working in the UK, I continued to study from home, completing online courses and learning the basics of programming languages like
         Java, Phyton, R and SQL, but also undertake some basics projects to learn more about the physical concepts of computing and asembley language. <br>
         Some of this projects include creating a magic mirror using a Raspberry PI, building my own Desktop tower, creating a retro game from scratch. <br>
-        In 2018 I started my curent job as an operative, and since then I obtained several promotions that lead to becoming a 
+        In 2018 I started my curent job as an operative, and since then I obtained several promotions that lead to becoming a
         Specialist Cleaning Manager. <br><br>
 
-        <p>Future:</p> 
-        My plan is to graduate as a Data Scientist with knowledge in Software Engeneering. Programming is something that allow us to create 
+        <p>Future:</p>
+        My plan is to graduate as a Data Scientist with knowledge in Software Engeneering. Programming is something that allow us to create
         anything we want, and our imagination is the limit. And I enjoy programming for this reason. <br><br>
-        After graduation I would like to research domain knowledge to improve my data science abilitites and become a worldwide recognised 
+        After graduation I would like to research domain knowledge to improve my data science abilitites and become a worldwide recognised
         Data Scientist. <br>
-        For myself, is really important to succeed. I want to breakthrough my current working enviroment and inspire other people 
+        For myself, is really important to succeed. I want to breakthrough my current working enviroment and inspire other people
         in my situation. I have already come a long way, and I would like to help other people like me to do the same. <br><br>
 
-         
-        
-    </div>
-    <div id="education">
-         
-        <p>Education</p>
+      </div>
+      <div id="ml3">
+        <h2>
+          Education
+        </h2>
         I studied Maths and IT, and graduated at Colegiul National Nicolaie Titulescu -Pucioasa, Romania
-         between 2010-2014. This is where I started learning my first programming language, creating simple aplications and algorithms using
-         Pascal. <br><br>
+        between 2010-2014. This is where I started learning my first programming language, creating simple aplications and algorithms using
+        Pascal. <br><br>
 
-         About <a href="http://cnnt-puc.net/" target="_blank" rel="noopener noreferrer">Colegiul National Nicolaie Titulescu.</a> <br>
-         About <a href="https://en.wikipedia.org/wiki/Pascal_(programming_language)" target="_blank" rel="noopener noreferrer">Pascal.</a> <br><br>
+        About <a href="http://cnnt-puc.net/" target="_blank" rel="noopener noreferrer">Colegiul National Nicolaie Titulescu.</a> <br>
+        About <a href="https://en.wikipedia.org/wiki/Pascal_(programming_language)" target="_blank" rel="noopener noreferrer">Pascal.</a> <br><br>
 
-         Here, I studied Microsoft Office and obtained my European Computing Driving License qualification(ECDL). <br><br>
-         
-         <br><strong>ECDL/ICDL</strong> is a worldwide recognised computer literacy certification programme containing the folowing modules: <br><br>
-         <ol id='modules'>
-             <li>IT user fundamentals</li>
-             <li>Internet and email</li>
-             <li>Word processing</li>
-             <li>Spreadsheet software</li>
-             <li>Presentation software</li>
-             <li>Database software</li>
-             <li>Online collaboration</li>
-             <li>Improving productivity</li>
-             <li>Project planning</li>
-             <li>IT security for users</li>
-         </ol> <br><br>
-         More about <a href="https://icdleurope.org/" target="_blank" rel="noopener noreferrer">European Computing Driving License</a>. <br><br>
+        Here, I studied Microsoft Office and obtained my European Computing Driving License qualification(ECDL). <br>
 
-         I also studied SQL language through an Oracle Academy Program, and obtaind a <strong>Database Design and 
-             Programming with SQL</strong> diploma. <br> <br>
-        
-          <br><strong>Oracle Corporation</strong> is an American multinational computer technology corporation headquartered in Austin,
-          Texas. The company was formerly headquartered in Redwood Shores, California until December 2020 when it 
-          moved its headquarters to Texas. The company sells database software and technology, cloud engineered 
-          systems, and enterprise software products—particularly its own brands of database management systems. 
-          In 2019, Oracle was the second-largest software company by revenue and market capitalization. 
-          The company also develops and builds tools for database development and systems of middle-tier software, 
-          enterprise resource planning (ERP) software, Human Capital Management (HCM) software, customer relationship 
-          management (CRM) software, and supply chain management (SCM) software. <br><br>
-          <a href="https://en.wikipedia.org/wiki/Oracle_Corporation" target="_blank" rel="noopener noreferrer">Wikipedia-Oracle Corporation</a>
-    </div>
-    <div id="hobbies">
+        <br><strong>ECDL/ICDL</strong> is a worldwide recognised computer literacy certification programme. <br><br>
 
-          <p>Hobbies</p>
-          I have a deep passion for learning new skills, which is one of the reasons why I chose to pursue this career. <br>
-          One of the biggest challanges in Data Science is the ability to keep up with the industry's skills requirements. New,
-          more specialised tools and programming languages are created all the time. A lot of this tools are implemented 
-          by different companies, and mastering this skills is vital to succeed as a Data Scientist. <br>
-          Another challange for Data Scientists is the large amount of domain knowledge required. You can not be a successful Data Scientist 
-          unless you have a deep knowledge of field. <br>
-          This being said, a data scientist will never stop learning. <br><br>
+        More about <a href="https://icdleurope.org/" target="_blank" rel="noopener noreferrer">European Computing Driving License</a>. <br><br>
 
-          Another passion I have is to travel the world. <br>
-          I have already seen a lot of countries and cities, and I put toghether a breakdown of things I learned while visiting them, 
-            <a href="places-visit.html">here</a>.
-    </div>
-    <div id="learning">
-          <p>Learning outcomes at University</p>
+        I also studied SQL language through an Oracle Academy Program, and obtaind a <strong>Database Design and
+          Programming with SQL</strong> diploma. <br> <br>
 
-       
-            In the ten weeks I have spent as a student, I have learned to create this website, how to create and administrate 
-            database in Microsoft Access, the basics of computer science, and how to program in Java. <br><br>
-            If you would like to see my progress, I have put together a list of projects I have been working on <a href="#navcol-1">here</a>.
-                  
-    </div>    
-    <!--Footer with icons-->
-    <div class="footer">
-        <footer>
-            <div class="social">
-                <a href="https://github.com/andreicruceru95" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-github"></i></a>
-                <a href="https://www.linkedin.com/in/andrei-cruceru-517473116/" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-linkedin"></i></a>
-                <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-twitter"></i></a>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-facebook"></i></a></div>
-            <ul class="list-inline">
-                <!--In-line links-->
-                <li class="list-inline-item"><a href="index.html">Home</a></li>
-                <li class="list-inline-item"><a href="review.html">Feedback</a></li>
-                <li class="list-inline-item"><a href="Contact.html">Contact</a></li>
-                
-            </ul>
-            
-        </footer>
+        <br><strong>Oracle Corporation</strong> is an American multinational computer technology corporation headquartered in Austin,
+        Texas. The company was formerly headquartered in Redwood Shores, California until December 2020 when it
+        moved its headquarters to Texas. The company sells database software and technology, cloud engineered
+        systems, and enterprise software products—particularly its own brands of database management systems.
+        In 2019, Oracle was the second-largest software company by revenue and market capitalization.
+        The company also develops and builds tools for database development and systems of middle-tier software,
+        enterprise resource planning (ERP) software, Human Capital Management (HCM) software, customer relationship
+        management (CRM) software, and supply chain management (SCM) software. <br><br>
+        <a href="https://en.wikipedia.org/wiki/Oracle_Corporation" target="_blank" rel="noopener noreferrer">Wikipedia-Oracle Corporation</a>
+      </div>
+      <div id="ml4">
+        <h2>
+          Skills
+        </h2>
+        <ol id='modules'>
+          <li><strong>ECDL/ICDL</strong><br><br>
+
+            <ol id='modules'>
+              <li>IT user fundamentals</li>
+              <li>Internet and email</li>
+              <li>Word processing</li>
+              <li>Spreadsheet software</li>
+              <li>Presentation software</li>
+              <li>Database software</li>
+              <li>Online collaboration</li>
+              <li>Improving productivity</li>
+              <li>Project planning</li>
+              <li>IT security for users</li>
+            </ol>
+          </li> <br> 
+          <li><strong>Database Design and Programming with SQL</strong></li> <br>
+          <li>HSE(Health and Safety Executive)</li> <br>
+          <li>CSCS(Construction Skills Certification Scheme)</li> <br>
+          <li>IPAF(International Powered Access Federation)</li> <br>
+          <li>PASMA(Prefabricated Access Suppliers and Manufacturers' Association)</li>
+
+      </div>
     </div>
 
-    
-    <script src="static/js/jquery.min.js"></script>
-    <script src="static/bootstrap/js/bootstrap.min.js"></script>
-</body>
+    <script src="static/about/js/about.js"></script>
+  </body>
 
 </html>
