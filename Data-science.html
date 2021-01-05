@@ -5,177 +5,149 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Data Science</title>
-    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="static/what-is/css/nav-bar.css">
-    <link rel="stylesheet" href="static/what-is/css/what-is.css">
+    <title>Data Science</title>    
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="static/what-is/css/what-is.css"> 
+        <link rel="stylesheet" href="static/nav-bar.css">       
+    </head>
+    <body>
+        <div class="container">
+            <div class="vertical-nav">
+                <h4 class="text-center"> 
+                    <img class="img-fluid" src="static/other-images/data.jpg" width=100%>
+                </h4>
+                <h4>Data Science</h4>
+                <div class="button-group">
+                    <ul class="list">
+                    <li class="list-item"><button class="vnav-b" id="why" onclick="why()">Why Data Science </button></li>
+                    <li class="list-item"><button class="vnav-b" id="what" onclick="what()">What is Data Science </button></li>
+                    <li class="list-item"><button class="vnav-b" id="foundations" onclick="foundations()">Foundations</button></li>
+                    <li class="list-item"><button class="vnav-b" id="relations" onclick="relations()">Relationship with statistics </button></li>
+                    <li class="list-item"><button class="vnav-b" id="early" onclick="early()">Early Usage</button></li>
+                    <li class="list-item"><button class="vnav-b" id="modern" onclick="modern()">Modern usage</button></li>
+                    <li class="list-item"><button class="vnav-b" onclick="location.href='index.html'">Home </button>      </li>
+                    </ul>
+                </div>          
+            </div>
+            <div id="why-ds">
+                <h2>Why Data Science?</h2>
+                <p>
+                    I have always been atracted to the IT industry.  
+                    I was fascinated with the power of computers ever sice I was 8 years old, when my parents brought me my first computer
+                    with the help of an European Educational program. 
+                    It was only a basic office desktop tower with limited posibilites, but it was enough for me to decide 
+                    that my future career will involve working with them. <br> <br>
+                 
+                    I started to pursue this career by applying for an IT and mathematics college, and I was accepted. 
+                    During college, I obtaind various IT skills, including Microsoft Office and Oracle SQL.
+                    Years later, I was unable to apply for higher degrees due to financial reasons. I have spent a lot of time trying to 
+                    understand the evolution of the industry and trying to find my place in it. 
+                     While developing my SQL skills, I learned about the importance and the potential of data, and decided to follow a career in
+                     Data Science. 
+                  <br><br>
+                    I have finaly decided to join university after 6 years of break from any eductional enviroment, and it was a great decision. 
+                    I realised I do have a passion for learning new skills, and I am a lot more capable than I thought I was. <br><br>
+                    But what is Data Science? 
+                  </p>
+            </div>
+            <div id="what-ds">
+                <h2>
+                    What is Data Science
+                </h2>
+                <p>
+                    Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms 
+                    and systems to extract knowledge and insights from many structural and unstructured data.
+                    Data science is related to data mining, machine learning and big data.
+                    Data science is a "concept to unify statistics, data analysis and their related methods"
+                    in order to "understand and analyze actual phenomena" with data.
+                    It uses techniques and theories drawn from many fields within the context of mathematics,
+                    statistics, computer science, domain knowledge and information science. 
+                    Turing award winner Jim Gray imagined data science as a "fourth paradigm"
+                    of science (empirical, theoretical, computational and now data-driven) and asserted that 
+                    "everything about science is changing because of the impact of information technology" and the data deluge. 
+                <p id = "quote">   
+                    "Data Science is the study of data. It is about extracting, analyzing, visualizing, managing and storing data 
+                    to create insights. These insights help the companies to make powerful data-driven decisions. Data Science requires the 
+                    usage of both unstructured and structured data. It is a multidisciplinary field that has its roots in statistics, 
+                    math and computer science. It is one of the most highly sought after jobs due to the abundance of data science 
+                    position and a lucrative pay-scale."<br> <br> Rinu Gour - <a href="https://towardsdatascience.com/why-choose-data-science-for-your-career-ca38db0c28d4#:~:text=Data%20Science%20is%20the%20study,both%20unstructured%20and%20structured%20data." target="_blank" rel="noopener noreferrer">
+                    Why Choose Data Science for Your Career </a>                    
+                </p>
+                </p>
+            </div>
+            <div id="foundations-ds">
+                <h2>
+                    Foundations
+               </h2>
+               <p>
+               Data science is an interdisciplinary field focused on extracting knowledge 
+               from data sets, which are typically large (see big data).
+               The field encompasses analysis, preparing data for analysis, and presenting findings
+               to inform high-level decisions in an organization. As such, it incorporates skills
+               from computer science, mathematics, statistics, information visualization, graphic design, 
+               complex systems, communication and business. Statistician Nathan Yau, drawing on Ben Fry,
+               also links data science to human-computer interaction: users should be able to intuitively control
+               and explore data. In 2015, the American Statistical Association identified database management,
+               statistics and machine learning, and distributed and parallel systems as the three emerging foundational 
+               professional communities.
+               </p>
+            </div>
+            <div id="relations-ds">
+                <h2>
+                    Relationship with Statistics
+                </h2>
+                <p>
+                Many statisticians, including Nate Silver, have argued that data science is not a new field, 
+                but rather another name for statistics.[12] Others argue that data science is distinct 
+                from statistics because it focuses on problems and techniques unique to digital data.
+                Vasant Dhar writes that statistics emphasizes quantitative data and description. 
+                In contrast, data science deals with quantitative and qualitative data (e.g. images) and emphasizes prediction and action.
+                Andrew Gelman of Columbia University and data scientist Vincent Granville have described statistics as
+                a nonessential part of data science. Stanford professor David Donoho writes that data science 
+                is not distinguished from statistics by the size of datasets or use of computing, and that many graduate 
+                programs misleadingly advertise their analytics and statistics training as the essence of a data science program. 
+                He describes data science as an applied field growing out of traditional statistics. 
+                In summary, data science can be therefore described as an applied branch of statistics.</p>
+            </div>
+            <div id="early-ds">
+                <h2>
+                    Early usage
+                </h2><p>
+                In 1962, John Tukey described a field he called “data analysis,” which resembles modern data science. 
+                In 1985, in a lecture given to the Chinese Academy of Sciences in Beijing, C.F. Jeff Wu used the term 
+                Data Science for the first time as an alternative name for statistics.[18] Later, attendees at a 1992 statistics 
+                symposium at the University of Montpellier II acknowledged the emergence of a new discipline focused on data of various 
+                origins and forms, combining established concepts and principles of statistics and data analysis with computing.
+                The term “data science” has been traced back to 1974, when Peter Naur proposed it as an alternative name for 
+                computer science. In 1996, the International Federation of Classification Societies became the first conference
+                to specifically feature data science as a topic. However, the definition was still in flux. After the 1985 lecture in 
+                the Chinese Academy of Sciences in Beijing, in 1997 C.F. Jeff Wu again suggested that statistics should be renamed 
+                data science. He reasoned that a new name would help statistics shed inaccurate stereotypes, such as being synonymous 
+                with accounting, or limited to describing data. In 1998, Chikio Hayashi argued for data science as a new, 
+                interdisciplinary concept, with three aspects: data design, collection, and analysis.
+                During the 1990s, popular terms for the process of finding patterns in datasets (which were increasingly large) 
+                included “knowledge discovery” and “data mining”.</p>
+                    
+            </div>
+            <div id="modern-ds">
+                <h2>
+                    Modern Usage
+                </h2><p>
+               The modern conception of data science as an independent discipline is sometimes attributed to William S. 
+                Cleveland. In a 2001 paper, he advocated an expansion of statistics beyond theory into technical areas; 
+                because this would significantly change the field, it warranted a new name. "Data science" 
+                became more widely used in the next few years: in 2002, the Committee on Data for Science and Technology 
+                launched Data Science Journal. In 2003, Columbia University launched The Journal of Data Science.
+                In 2014, the American Statistical Association's Section on Statistical Learning and Data Mining changed its
+                name to the Section on Statistical Learning and Data Science, reflecting the ascendant popularity of data science.
     
-</head>
-
-
-
-<body>
-
-    <div id="container">
-
-        <div class="vertical-nav">
-            <h4 class="text-center"> <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8XZ3Y-_gK0FIJB5kVW6AaWQjZOtHDpOOr-g&usqp=CAU"></h4>
-            <h4>Data Science</h4>
-            <ul class="vertical-nav-list">
-             <li class="vnav-li"><a class="vnav-link" href="#ds">Why Data Science</a></li>
-             <li class="vnav-li"><a class="vnav-link" href="#what">What is Data Science</a></li>
-             <li class="vnav-li"><a class="vnav-link" href="#foundations">Foundations</a><li>
-             <li class="vnav-li"><a class="vnav-link" href="#relation">Relationship with Statistics</a></li>
-             <li class="vnav-li"><a class="vnav-link" href="#early">Early usage</a></li>
-             <li class="vnav-li"><a class="vnav-link" href="#modern">Modern usage</a></li>
-             <li class="vnav-li"><a class="vnav-link" href="index.html">Home</a></li>
-           </ul>
+                The professional title of “data scientist” has been attributed to DJ Patil and Jeff Hammerbacher in 2008. 
+                Though it was used by the National Science Board in their 2005 report, "Long-Lived Digital Data Collections:
+                Enabling Research and Education in the 21st Century," it referred broadly to any key role in managing a digital data collection.
+                                
+                There is still no consensus on the definition of data science and it is considered by some to be a buzzword.</p>
+            </div>
         </div>
-        <div id="ds">
-             Why Data Science?
-         </div>
-        <div class ="statement" id="statement">
-          <p>
-            I have always been atracted to the IT industry.  
-            I was fascinated with the power of computers ever sice I was 8 years old, when my parents brought me my first computer
-            with the help of an European Educational program. 
-            It was only a basic office desktop tower with limited posibilites, but it was enough for me to decide 
-            that my future career will involve working with them. 
-          </p>
-          <p>
-            I started to pursue this career by applying for an IT and mathematics college, and I was accepted. 
-            During college, I obtaind various IT skills, including Microsoft Office and Oracle SQL.
-            Years later, I was unable to apply for higher degrees due to financial reasons. I have spent a lot of time trying to 
-            understand the evolution of the industry and trying to find my place in it. 
-             While developing my SQL skills, I learned about the importance and the potential of data, and decided to follow a career in
-             Data Science. 
-          </p>
-          <p>
-            I have finaly decided to join university after 6 years of break from any eductional enviroment, and it was a great decision. 
-            I realised I do have a passion for learning new skills, and I am a lot more capable than I thought I was. <br><br>
-            But what is Data Science? 
-          </p>
-        </div>
-        <div id ="image">
-            <img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/04/Data-Science-Applications-01.jpg" height="100%" width="100%" alt="image">
-        </div>
-        <div class="text" id ="what">
-            <h2>
-                What is Data Science
-            </h2>
-                Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms 
-                and systems to extract knowledge and insights from many structural and unstructured data.
-                Data science is related to data mining, machine learning and big data.
-            <p id = "quote">   
-                "Data Science is the study of data. It is about extracting, analyzing, visualizing, managing and storing data 
-                to create insights. These insights help the companies to make powerful data-driven decisions. Data Science requires the 
-                usage of both unstructured and structured data. It is a multidisciplinary field that has its roots in statistics, 
-                math and computer science. It is one of the most highly sought after jobs due to the abundance of data science 
-                position and a lucrative pay-scale."<br> <br> Rinu Gour - <a href="https://towardsdatascience.com/why-choose-data-science-for-your-career-ca38db0c28d4#:~:text=Data%20Science%20is%20the%20study,both%20unstructured%20and%20structured%20data.">
-                Why Choose Data Science for Your Career </a>
-            </p>
-        </div>
-        <div id = "image">
-            <img src="https://www.bardess.com/wp-content/uploads/2019/05/Data-Science-Maturity-Curve.jpg" height="100%" width="100%" alt="">
-        </div>
-        <div class = "text" >
-            Data science is a "concept to unify statistics, data analysis and their related methods"
-            in order to "understand and analyze actual phenomena" with data.
-            It uses techniques and theories drawn from many fields within the context of mathematics,
-            statistics, computer science, domain knowledge and information science. 
-            Turing award winner Jim Gray imagined data science as a "fourth paradigm"
-            of science (empirical, theoretical, computational and now data-driven) and asserted that 
-            "everything about science is changing because of the impact of information technology" and the data deluge. 
-                <br>        
-        </div>
-        <div id = "image">
-            <img src="https://assets.kpmg/content/dam/kpmg/xx/images/2019/07/blue-colored-data-science-illustration.jpg/jcr:content/renditions/cq5dam.web.787.99999.jpg " height="100%" width="100%" alt="">
-
-        </div>
-        <div class = "text" id="foundations">
-            <h2>
-                 Foundations
-            </h2>
-            Data science is an interdisciplinary field focused on extracting knowledge 
-            from data sets, which are typically large (see big data).
-            The field encompasses analysis, preparing data for analysis, and presenting findings
-            to inform high-level decisions in an organization. As such, it incorporates skills
-            from computer science, mathematics, statistics, information visualization, graphic design, 
-            complex systems, communication and business. Statistician Nathan Yau, drawing on Ben Fry,
-            also links data science to human-computer interaction: users should be able to intuitively control
-            and explore data. In 2015, the American Statistical Association identified database management,
-            statistics and machine learning, and distributed and parallel systems as the three emerging foundational 
-            professional communities.    
-        </div>
-        <div id = "image">
-            <img src="https://365datascience.com/wp-content/uploads/2019/01/image1-1024x576.jpg" height="100%" width="100%" alt="">
-        </div>
-        <div class = "text" id="relation">
-            <h2>
-                Relationship with Statistics
-            </h2>
-            Many statisticians, including Nate Silver, have argued that data science is not a new field, 
-            but rather another name for statistics.[12] Others argue that data science is distinct 
-            from statistics because it focuses on problems and techniques unique to digital data.
-            Vasant Dhar writes that statistics emphasizes quantitative data and description. 
-            In contrast, data science deals with quantitative and qualitative data (e.g. images) and emphasizes prediction and action.
-            Andrew Gelman of Columbia University and data scientist Vincent Granville have described statistics as
-            a nonessential part of data science. Stanford professor David Donoho writes that data science 
-            is not distinguished from statistics by the size of datasets or use of computing, and that many graduate 
-            programs misleadingly advertise their analytics and statistics training as the essence of a data science program. 
-            He describes data science as an applied field growing out of traditional statistics. 
-            In summary, data science can be therefore described as an applied branch of statistics.
-        </div>
-        <div id = "image">
-            <img src="https://www.kdnuggets.com/wp-content/uploads/Fig1-Abisiga-top-10-lists-data-science.jpg" height="100%" width="100%" alt="">
-        </div>
-        <div class = "text" id="early">
-            <h2>
-                Early usage
-            </h2>
-            In 1962, John Tukey described a field he called “data analysis,” which resembles modern data science. 
-            In 1985, in a lecture given to the Chinese Academy of Sciences in Beijing, C.F. Jeff Wu used the term 
-            Data Science for the first time as an alternative name for statistics.[18] Later, attendees at a 1992 statistics 
-            symposium at the University of Montpellier II acknowledged the emergence of a new discipline focused on data of various 
-            origins and forms, combining established concepts and principles of statistics and data analysis with computing.
-            The term “data science” has been traced back to 1974, when Peter Naur proposed it as an alternative name for 
-            computer science. In 1996, the International Federation of Classification Societies became the first conference
-            to specifically feature data science as a topic. However, the definition was still in flux. After the 1985 lecture in 
-            the Chinese Academy of Sciences in Beijing, in 1997 C.F. Jeff Wu again suggested that statistics should be renamed 
-            data science. He reasoned that a new name would help statistics shed inaccurate stereotypes, such as being synonymous 
-            with accounting, or limited to describing data. In 1998, Chikio Hayashi argued for data science as a new, 
-            interdisciplinary concept, with three aspects: data design, collection, and analysis.
-            During the 1990s, popular terms for the process of finding patterns in datasets (which were increasingly large) 
-            included “knowledge discovery” and “data mining”.
-
-        </div>
-        <div id ="image">
-            <img src="https://storage.ning.com/topology/rest/1.0/file/get/135807237?profile=original" height="100%" width="100%" alt="image">
-        </div>
-        <div class ="text" id="modern">
-            <h2>
-                Modern Usage
-            </h2>
-           The modern conception of data science as an independent discipline is sometimes attributed to William S. 
-            Cleveland. In a 2001 paper, he advocated an expansion of statistics beyond theory into technical areas; 
-            because this would significantly change the field, it warranted a new name. "Data science" 
-            became more widely used in the next few years: in 2002, the Committee on Data for Science and Technology 
-            launched Data Science Journal. In 2003, Columbia University launched The Journal of Data Science.
-            In 2014, the American Statistical Association's Section on Statistical Learning and Data Mining changed its
-            name to the Section on Statistical Learning and Data Science, reflecting the ascendant popularity of data science.
-
-            The professional title of “data scientist” has been attributed to DJ Patil and Jeff Hammerbacher in 2008. 
-            Though it was used by the National Science Board in their 2005 report, "Long-Lived Digital Data Collections:
-            Enabling Research and Education in the 21st Century," it referred broadly to any key role in managing a digital data collection.
-                            
-            There is still no consensus on the definition of data science and it is considered by some to be a buzzword.
-        </div>
-        <div id = "refference">
-            <a href="https://en.wikipedia.org/wiki/Data_science" target="_blank" rel="noopener noreferrer">Wikipedia-Data Science</a>
-        </div>
-    </div>
-    <script src="static/js/jquery.min.js"></script>
+        <script rel="text/javascript" src="static/what-is/js/what-is.js"></script>
 </body>
 </html>
