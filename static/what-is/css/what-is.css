@@ -1,94 +1,58 @@
-
-body{    
-  background-color: #354649 ;   
+body{
+  background-color: #354649;
   color: white;
-}
-*{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 98vw;
+  height: 100vh;    
+
 }
-#refference {
+.container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: inherit;
   text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-  padding-bottom: 20px;    
+  vertical-align: middle;
 }
-#quote{
-  text-align: left;
-  font-size: 30px;
-  font-weight: bold;
-  font-style: oblique;
+h4{
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  text-align: center;
 }
-
-#container {
-width: 100%;
-margin: 0 auto;
-display: inline-block;  
+#why-ds, #what-ds, #foundations-ds, #relations-ds, #early-ds, #modern-ds{
+  position: absolute;
+  font-family: inherit;
+  color: inherit;
+  width: 80%;
+  font-size: 3vh;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  margin-left: 15%;
+  float: left;
+  text-align: left;    
+  overflow: hidden;
 }
-
-#statement, .text, #refference, #image, #ds{
-width: 70%;  
-margin: 20px;
-min-height: 1px;
-margin-right: 10%;
-float: right;
-}
-#image{
- background-size: cover;
- text-align: center;
- height: 600px;
-}
-#image img{
-  background-size: cover;
-}
-.statement, .text{
- text-align: left;   
- font-size: 30px;
- letter-spacing: 2px;
- line-height: 1.8;
- color: white;
- 
+#what-ds, #foundations-ds, #relations-ds,#early-ds, #modern-ds{
+  display: none;
 }
 h2{
- color: rgb(255, 255, 255);
- font-weight: bold;
- margin-top: 10%;
- text-align: center;
- margin-left: 10%;
- margin-bottom: 10%;
- font-size: 40px;
-}
-#ds{
-  padding-top: 100px;
-  margin-bottom: 100px;
+  color: #56c6c6;
   text-align: center;
-  font-size: 60px;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
-#refference{
- text-align: center;
- color: rgb(255, 255, 255);
- font-size: 30px;
+h2:hover
+{
+      -webkit-transform: rotateZ(-2deg);
+      -ms-transform: rotateZ(-2deg);
+      transform: rotateZ(-2deg);
+      transition: 2s;
+}
+#quote{
+  font-style: italic;
+  font-size: 25px;
 }
 a{
   color: #56c6c6;
 }
-
-@media screen and (max-width: 600px){
-  h2, #ds{
-    font-size: 6vw;
-    }
-  .statement, .text{
-    letter-spacing: 0.5px;
-    line-height: 0.9;
-    text-align: left;
-    font-size: 4vw;
-        
-  }
-  #quote, #refference{
-     font-size: 4vw;
-   } 
-
-}
-
-
