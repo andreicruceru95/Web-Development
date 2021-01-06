@@ -1,6 +1,7 @@
 .footer {
+  border-top: 2px solid  #4b4c4d;
   padding: 40px 0;
-  background-color: #56c6c6;  
+  background-color: inherit;  
   }
   
 
@@ -23,7 +24,7 @@
 }
 
 .footer ul a:hover {
-  color: #354649 ;
+  color: #56c6c6 ;
   transition: 0.5;
 }
 
@@ -40,14 +41,16 @@
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #354649;
+  border: 1px solid #56c6c6;
   margin: 0 8px;
   color: white;
   opacity: 0.5;
 }
 
 .footer .social > a:hover {
+  color: #56c6c6;
   opacity: 0.9;
+  transition: 0.5s;
 }
 
 .footer{
@@ -55,7 +58,6 @@
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: #aaa;
   margin-bottom: 0;  
 }
 
