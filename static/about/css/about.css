@@ -68,14 +68,40 @@ p{
 a{
     color: #56c6c6
 }
-@media screen and (max-width: 600px){
-    .ml1, .ml2, .ml3, .ml4{
-        font-size: larger;
+@media screen and (max-width: 700px) {
+    .vertical-nav {
+      width: 98%;
+      text-align: center;
+      height: 120px;
+      position: relative;
+      z-index: 2;
+      margin-top: 0;
     }
-    p{
+    .vnav-b{
+        height: 20px;
+    }
+    .container{
+        height: 100%;
+        display: block;
+    }
+    #ml1, #ml2,#ml3,#ml4,#ml5,#ml6{
+        height: 80%;
+        bottom: 0;
+        overflow: scroll;
         font-size: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     h2{
-        font-size: 35px;
+        font-size: 30px;
     }
-}
+    p{
+        font-size: 25px;
+    }
+    #myself img{
+        width: 70%;
+        height: 40%;
+    }
+
+  }  
+  
