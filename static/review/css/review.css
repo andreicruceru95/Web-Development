@@ -143,6 +143,71 @@ body {
     }
     
   }
+  .footer {
+    border-top: 2px solid  #4b4c4d;
+    padding: 40px 0;
+    background-color: inherit;  
+    height: 150px;
+    }
+    
+  
+  .footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  
+  .footer li {
+    padding: 0 10px;
+  }
+  
+  .footer ul a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer ul a:hover {
+    color: #56c6c6 ;
+    transition: 0.5;
+  }
+  
+  .footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  .footer .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #56c6c6;
+    margin: 0 8px;
+    color: white;
+    opacity: 0.5;
+  }
+  
+  .footer .social > a:hover {
+    color: #56c6c6;
+    opacity: 0.9;
+    transition: 0.5s;
+  }
+  
+  .footer{
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 0;  
+  }
+  
+  
 
  
   
