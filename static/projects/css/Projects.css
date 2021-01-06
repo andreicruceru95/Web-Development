@@ -1,8 +1,10 @@
 body{
   background-color: #262727;
   color: white;
+  position: relative;
 }
 .projects {
+  position: relative;
   color: inherit;
   background-color: inherit;
 }
@@ -17,7 +19,19 @@ body{
   padding-top: 40px;
   color: inherit;
 }
-
+@media (max-width:575px) {
+  .description{
+    width: 60%;
+    margin-left: 20%;
+  }
+  .col{
+    text-align: center;
+  }
+  *{
+  text-align: center;
+  }
+  
+}
 @media (max-width:767px) {
   .projects h2 {
     margin-bottom: 25px;
@@ -34,11 +48,13 @@ body{
 
 .projects .projects {
   padding-bottom: 40px;
+  
 }
 
 .projects .item {
   padding-top: 60px;
   min-height: 160px;
+  margin-bottom: 20%;
 }
 
 @media (max-width:767px) {
@@ -68,5 +84,56 @@ body{
 }
 .projects img{
   height: 130px;
+}
+.footer{
+  background-color: inherit;
+  border-top: 2px solid  #4b4c4d;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  padding: 40px 0;
+  margin-top: 100px;
+} 
+.footer li{
+  padding: 0 10px;
+} 
+.footer ul a{
+  color: inherit;
+  bottom: 5px;
+  vertical-align: bottom;
+}
+.footer ul a:hover{
+  color: #56c6c6 ;
+  transition: 0.5;
+}
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.footer .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #56c6c6;
+  margin: 0 8px;
+  color: white;
+  opacity: 0.5;
+}
+.footer .social > a:hover {
+  color: #56c6c6;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+@media screen and (max-width: 800px){
+  .footer{
+    height: 5%;
+  }
 }
 
