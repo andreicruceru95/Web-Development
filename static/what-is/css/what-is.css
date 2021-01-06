@@ -15,17 +15,12 @@ body{
   text-align: center;
   vertical-align: middle;
 }
-h4{
-  color: rgb(255, 255, 255);
-  font-size: larger;
-  text-align: center;
-}
-#why-ds, #what-ds, #foundations-ds, #relations-ds, #early-ds, #modern-ds{
+#ml1, #ml2,#ml3,#ml4,#ml5,#ml6{
   position: absolute;
   font-family: inherit;
   color: inherit;
   width: 80%;
-  font-size: 3vh;
+  font-size: 25px;
   letter-spacing: 2px;
   line-height: 1.4;
   margin-left: 15%;
@@ -33,7 +28,7 @@ h4{
   text-align: left;    
   overflow: hidden;
 }
-#what-ds, #foundations-ds, #relations-ds,#early-ds, #modern-ds{
+#ml2,#ml3,#ml4,#ml5,#ml6{
   display: none;
 }
 h2{
@@ -41,6 +36,8 @@ h2{
   text-align: center;
   margin-top: 5%;
   margin-bottom: 10%;
+  font-weight: bolder;
+  font-size: 50px;
 }
 h2:hover
 {
@@ -49,10 +46,39 @@ h2:hover
       transform: rotateZ(-2deg);
       transition: 2s;
 }
-#quote{
-  font-style: italic;
-  font-size: 25px;
-}
 a{
-  color: #56c6c6;
+  color: #56c6c6
 }
+@media screen and (max-width: 700px) {
+  h4{
+    display: none;
+  }
+  .vertical-nav {
+    display: inline;
+    width: 98%;
+    text-align: center;
+    height: 150px;
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
+  }
+  .vnav-b{
+      height: 20px;
+  }
+  .container{
+      height: 100%;
+      display: block;
+  }
+  #ml1, #ml2,#ml3,#ml4,#ml5,#ml6{
+      height: 80%;
+      bottom: 0;
+      overflow: scroll;
+      font-size: 20px;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  h2{
+      font-size: 30px;
+  }
+  p
+}  
