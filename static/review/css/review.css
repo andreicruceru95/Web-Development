@@ -6,6 +6,11 @@
    font-weight: bold;
     
 }
+#VFfname, #VFlname, #VFdate, #VFfeedback{
+  display: none;
+  font-size: 14px;
+  color: red;
+}
 
 body {
     background-color: #354649;
