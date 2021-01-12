@@ -1,22 +1,12 @@
-const fname = document.getElementById('fname')
-const feedback = document.getElementById('feedback')
-const form = document.getElementById('form')
-const errorElement = document.getElementById('error')
-form.addEventListener('submit', (e) => {
-  let messages =[]
-  if (fname.value ==='' || name.value == null || feedback.value ==='' || feedback.value == null){
-    messages.push('Name and feedback is required')
-  }
-
-  if (messages.length > 0){
-    e.preventDefault()
-    errorElement.innerText = messages.join(', ')
-  }
-  else{
-    feedbackUpdate();
-  }
-  
-})
+var fname = document.getElementById('fname');
+var lname = document.getElementById('lname');
+var date = document.getElementById('date');
+var feedback = document.getElementById('feedback');
+var text = document.getElementById('VFfname');
+var text1 = document.getElementById('VFlname');
+var text2 = document.getElementById('VFdate');
+var text3 = document.getElementById('VFfeedback');
+const form = document.getElementById('form');
 
 
 // Next id for adding a new feedback
@@ -39,12 +29,66 @@ function feedbackDisplay(ctl) {
   // Change Update Button Text
   $("#updateButton").text("Update");
 }
-
+function changeText(){
+  text.style.opacity = "0";
+}    
+function changeText1(){
+  text1.style.opacity = "0";
+} 
+function changeText2(){
+  text2.style.opacity = "0";
+} 
+function changeText3(){
+  text3.style.opacity = "0";
+} 
+var submit=document.querySelector("#updateButton");
+submit.addEventListener("click", function(ev) {      
+      ev.preventDefault();  
+      if(fname.value ==='' || fname.value == null || lname.value ==='' || lname.value == null || date.value ==='' || date.value == null || feedback.value ==='' || feedback.value == null)
+      {   
+  if(fname.value ==='' || fname.value == null) {
+    text.style.opacity = "1";
+    text.style.display = "block";
+    setInterval(changeText, 5000);           
+  }
+  else{
+    text.style.display = "none";
+  }
+  if(lname.value ==='' || lname.value == null) {  
+    text1.style.opacity = "1";      
+    text1.style.display = "block"; 
+    setInterval(changeText1, 5000); 
+  }
+  else{
+    text1.style.display = "none"; 
+  }
+  if(date.value ==='' || date.value == null) {   
+    text2.style.opacity = "1";       
+    text2.style.display = "block"; 
+    setInterval(changeText2, 5000);  
+  }
+  else{
+    text2.style.display = "none"; 
+  }
+  if(feedback.value ==='' || feedback.value == null) {   
+    text3.style.opacity = "1";     
+    text3.style.display = "block";  
+    setInterval(changeText3, 5000); 
+  }
+  else{
+    text3.style.display = "none"; 
+  }}
+  else{
+    feedbackUpdate();
+  
+  }
+});
 function feedbackUpdate() {
   if ($("#updateButton").text() == "Update") {
     updateInTable(activeId);
   } else {
     addToTable();
+    form.reset();
   }
 
   // Clear form fields
@@ -64,9 +108,15 @@ function addToTable() {
   // Append feedback to table
   $("#feedbackTable tbody").append(
     buildTableRow(nextId));
+    //add data in local storage
 if(localStorage) {
-    // Store data
-    localStorage.setItem("#feedbackTable tbody", );
+  var feedbacks = { 'id': nextId, 'fname': fname, 'lname': lname, 'date': date, 'feedback': feedback};
+// Put the object into storage
+localStorage.setItem('feedbacks', JSON.stringify(feedbacks));
+// Retrieve the object from storage
+var retrievedObject = localStorage.getItem('feedbacks');
+
+console.log('retrievedObject: ', JSON.parse(retrievedObject)); 
 }}
   // Increment next ID to use
   nextId += 1;
