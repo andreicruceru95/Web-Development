@@ -73,32 +73,64 @@ button[type="submit"]:hover{
 
 }
 #status{
-    width:90%;
-    max-width: 500px;
     text-align: center;
-    padding: 10px;
-    margin: 0 auto;
-    border-radius: 8px;
-
+    margin-top: 5px;
+    font-weight: bolder;
 }
+
 .success {
     background-color: rgb(211, 250, 153);
     animation: status 4s ease forwards;
 }
 .error{
     background-color: rgb(182, 63, 17);
-    color: white;
+    animation: status 4s ease forwards;
 }
-
+#VFname, #VLname, #Vemail, #Vmessage{
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    display: none;
+}
 @keyframes status{
     0%{
         opacity: 1;
         pointer-events: all;
-
     }
-    90%{opacity: 1;
+    10%{
+        opacity: 0.9;
         pointer-events: all;
-
+    }
+    20%{
+        opacity: 0.8;
+        pointer-events: all;
+    }
+    30%{
+        opacity: 0.7;
+        pointer-events: all;
+    }
+    40%{
+        opacity: 0.6;
+        pointer-events: all;
+    }
+    50%{
+        opacity: 0.5;
+        pointer-events: all;
+    }
+    60%{
+        opacity: 0.4;
+        pointer-events: all;
+    }
+    70%{
+        opacity: 0.3;
+        pointer-events: all;
+    }
+    80%{
+        opacity: 0.2;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 0.1;
+        pointer-events: all;
     }
     100%{
         opacity: 0;
