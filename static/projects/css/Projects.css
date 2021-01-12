@@ -1,5 +1,5 @@
 body{
-  background-color: #262727;
+  background-color: #354649;
   color: white;
   position: relative;
 }
@@ -8,7 +8,9 @@ body{
   color: inherit;
   background-color: inherit;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 .projects p {
   color: #cdcdce;
 }
