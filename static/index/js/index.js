@@ -1,3 +1,4 @@
+//array of images
 const dataS = [
     "static/index/jpg/ds2.jpg",
     "static/index/jpg/ds3.jpg",
@@ -10,7 +11,7 @@ const dataS = [
     "static/index/jpg/ds10.jpg",
     "static/index/jpg/ds1.jpg"
   ]
-  
+  //change image every x seconds
   const node = document.getElementById("image-head");
   
   const cycleImages = (images, container, step) => {
@@ -22,4 +23,4 @@ const dataS = [
     setTimeout(() => cycleImages(images, container, step), step * images.length)
   }
   
-  cycleImages(dataS, node, 2000)
+  cycleImages(dataS, node, 10000)
