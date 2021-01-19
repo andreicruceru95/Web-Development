@@ -83,6 +83,7 @@ submit.addEventListener("click", function(ev) {
   
   }
 });
+//update an entry or add new entry
 function feedbackUpdate() {
   if ($("#updateButton").text() == "Update") {
     updateInTable(activeId);
