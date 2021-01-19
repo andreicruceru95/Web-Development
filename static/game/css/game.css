@@ -32,13 +32,14 @@ a{
   text-align: center;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 #title{
   font-weight: bold;
   text-align: center;
   font-size: 40px;
   color: #56c6c6;
+  
 }
 .subtitle{
   font-size: larger;
@@ -65,19 +66,19 @@ strong{
 }
 
 .team-boxed {
-  color: #313437;
-  background-color: #bcbcbd;
+  color: #000000;
+  background-color: inherit;
 }
 
 .team-boxed p {
-  color: #7d8285;
+  color: #8b8b8b;
 }
 
 .team-boxed h2 {
   font-weight: bold;
   margin-bottom: 40px;
   padding-top: 40px;
-  color: inherit;
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width:767px) {
