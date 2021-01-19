@@ -1,3 +1,4 @@
+//hide and display div content
 function what(){
     div = document.getElementById('ml2');
     div.style.display = "block";
