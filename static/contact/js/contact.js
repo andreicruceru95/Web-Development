@@ -28,6 +28,7 @@ window.addEventListener("DOMContentLoaded", function() {
       status.style.color = "red";
       setInterval(fade, 5000);
     } 
+    //fade text
     function fade() {
       status.style.opacity = "0";
     }
