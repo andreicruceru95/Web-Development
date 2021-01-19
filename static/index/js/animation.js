@@ -1,3 +1,4 @@
+//loop text animation
 anime.timeline({loop: true})
   .add({
     targets: '.ml15 .word',
